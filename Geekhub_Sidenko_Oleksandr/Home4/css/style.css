@@ -9,7 +9,7 @@ header {
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #EBEBEB;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 a.logo {
@@ -553,7 +553,8 @@ footer ul li:nth-of-type(1) {
     height: 33px; 
 }
 
-footer ul li:nth-of-type(1) a {
+footer ul li:nth-of-type(1) a,
+footer ul li:nth-of-type(2) a {
     position: relative;
     top: 4px;
     left: 0;

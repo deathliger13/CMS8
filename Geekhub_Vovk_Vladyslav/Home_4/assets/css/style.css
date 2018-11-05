@@ -5,7 +5,7 @@
 }
 
 header {
-  background: #FAFAFA;
+  background: #fafafa;
   border: 1px solid;
   border-color: #E9E9E9;
 }
@@ -214,10 +214,6 @@ footer {
   border: 1px solid;
   border-color: #E9E9E9;
 }
-
-/* .footer-container {
-  padding: 0px 0 15px 167px;
-} */
 
 .footer-container p {
   font-size: 13px;
