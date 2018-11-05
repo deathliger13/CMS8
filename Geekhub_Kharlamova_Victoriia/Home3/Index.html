@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORM</title>
+</head>
+<body>
+	<h1>Урок "Формы": теги и их атрибуты.</h1>
+	<h2>Расскажите немного о себе...</h2>
+	<p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.</p>
+	<form action="" method="get">
+		<fieldset>
+			<legend><b>Коротко о себе</b></legend>
+			<p><label>Имя: <input name="name" type="text"></label></p>
+			<p><label>Фамилия: <input name="surname" type="text"></label></p>
+			<p><label>Пол: <input type="radio" value="gender">Мужской <input type="radio" value="gender">Женский</label></p>
+			<p><label>Возраст: <input max="90" min="18" name="age" type="number">лет</label></p>
+		</fieldset>
+		<p></p>
+		<fieldset>
+			<legend><b>Подробнее о себе</b></legend> <input type="radio" value="gender1">Молодой человек<br>
+			<input type="radio" value="gender1">Девушка<br>
+			<label><input name="mariage" type="text">Дата рождения</label><br>
+			<label><input name="birthday" type="text">Семейное положение</label><br>
+			<label><input name="social status" type="text">Социальный статус</label><br>
+			<label><input name="location" type="text">Местоположение</label>
+			<p><legend><b>Что вы обычно делаете на выходных:</b></legend></p><input type="checkbox">Сплю<br>
+			<input type="checkbox">Гуляю с друзьями<br>
+			<input type="checkbox">Хожу на рыбалку<br>
+			<input type="checkbox">Играю в игры
+			<p><legend><b>Рассказать о формах в книге, посвященной HTML:</b></legend></p><select name="books">
+				<option>
+					Джентельменский набор Web-мастера
+				</option>
+				<option>
+					HTML 5m CSS 3 и Web 2.0. Разработка современных web-сайтов
+				</option>
+				<option>
+					Изучаем HTML 5
+				</option>
+			</select>
+			<p><legend><b>Сколько книг вы прочитали за свою жизнь:</b></legend></p><input type="radio" value="quantity">0-10<br>
+			<input type="radio" value="quantity">11-20<br>
+			<input type="radio" value="quantity">21-50<br>
+			<input type="radio" value="quantity">50+<br>
+			<p><legend><b>Ваши комментарии:</b></legend> 
+			<textarea cols="55" name="comment" rows="10"></textarea> <select multiple name="position">
+				<option>
+					Первая позиция
+				</option>
+				<option selected>
+					Вторая позиция
+				</option>
+				<option>
+					Третья позиция
+				</option>
+			</select></p>
+		</fieldset>
+		<p></p>
+		<fieldset>
+			<legend><b>И в заключение</b></legend> <input placeholder="Это поле было введено до вас" type="text"><br>
+			<legend><b>Email:</b></legend> <input name="email" type="text">
+			<p><legend><b>Хотите подписаться на самую модную рассылку спама?</b></legend> <em>Выберите категории</em></p><input type="checkbox">Оборудование<br>
+			<input type="checkbox">Как приготовить обеды<br>
+			<input type="checkbox">Заработай миллион за два дня!<br>
+			<p><legend><b>На сколько сложная задача:</b></legend></p><input type="radio" value="complexity">Совсем нет<br>
+			<input type="radio" value="complexity">Так себе<br>
+			<input type="radio" value="complexity">Еле справились<br>
+		</fieldset>
+		<p><input type="submit" value="Отправить"></p>
+	</form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+* {
+	font-family: "Times New Roman", serif;
+	max-width: 656px;
+    margin: 0 auto;
+}	
+p {
+    font-size: 15px;
+	padding: 7px 0 9px 0;
+}
+h1 {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	margin: 87px 0 7px 0;
+}
+address {
+	display: block;
+	font-size: 19px;
+	/*font-weight: bold;*/
+	font-style: italic;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+.company {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+	margin: 13px 0 0 0;
+}
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	margin: 14px 0 0 0;
+}
+.p-bold-left {
+    font-weight: bold;
+}
+.p-italic-center {
+    font-style: italic;
+	text-align: center;
+}
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+.italic-underline {
+    text-decoration: underline;
+	font-style: italic;
+}
+h3 {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: left;
+	margin: 7px 0 7px 0;
+}
+.p-italic-bold {
+    font-style: italic;
+	font-weight: bold;
+}
+.p-italic-right {
+    font-style: italic;
+	text-align: right;
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+	margin: 5px 13px 5px 0;
+}
+img {
+    display: block;
+    margin: 20px auto;
+}
+ul {
+	margin: 45px 0;
+}

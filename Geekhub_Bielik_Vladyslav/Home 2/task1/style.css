@@ -1,0 +1,29 @@
+body {
+
+    margin-top: 50px;
+    margin-left: 26%;
+    margin-right: 26%;
+}
+
+header {
+    border-width: 5px;
+    border-color: black;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+.leftimg {
+
+    float: left;
+    margin: 7px 12px 7px 0;
+}
+

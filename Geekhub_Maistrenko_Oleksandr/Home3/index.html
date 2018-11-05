@@ -1,0 +1,91 @@
+<!doctype html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Формы</title>
+        <style>
+        body {
+            padding-top: 0;
+            background-color: lightblue;
+        }
+        .content {
+            width: 700px;
+            margin: 0 auto;
+            padding: 50px 50px;
+            border: 1px solid lightgray;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }
+        input {
+            margin-right: 10px;
+        }
+        </style>
+    </head>
+    <body>
+    <div class="content">
+        <form method="get" name="about" action="">
+            <fieldset>
+                <legend class="bold">Коротко о себе</legend><br>
+                <label>Имя: <input type="text" name="name"></label><br><br>
+                <label>Фамилия: <input type="text" name="surname"></label><br><br>
+                Пол: <label><input type="radio" name="sex" value="male" checked>мужской</label>
+                <label><input type="radio" name="sex" value="female">женский</label><br><br>
+                <label>Возраст <input type="number" name="age" min="18"><label>лет<br><br>
+            </fieldset><br>
+            <fieldset>
+                <legend class="bold">Подробнее о себе</legend>
+                <label><input type="radio" name="boy-or-girl" value="boy" checked>Молодой человек</label><br>
+                <label><input type="radio" name="boy-or-girl" value="girl">Девушка</label><br>
+                <label><input type="date" name="date-of-birth">Дата рождения</label><br>
+                <label><input type="text" name="marital-status">Семейное положение</label><br>
+                <label><input type="text" name="social-status">Социальный статус</label><br>
+                <label><input type="text" name="location">Местожительство</label><br>
+                <p class="bold">Что вы обычно делаете на выходных:</p>
+                <label><input type="checkbox" name="sleep">Сплю</label><br>
+                <label><input type="checkbox" name="walk">Гуляю с друзьями</label><br>
+                <label><input type="checkbox" name="fish">Хожу на рыбалку</label><br>
+                <label><input type="checkbox" name="play">Играю в игры</label><br>
+                <p class="bold">Рассказать о формах в книге, посвященной HTML:</p>
+                <select name="forms in books">
+                    <option>Site frequency:1</option>
+                    <option>Site frequency:2</option>
+                    <option>Site frequency:3</option>
+                </select>
+                <p class="bold">Сколько книг вы прочитали за свою жизнь:</p>
+                <label><input type="radio" name="count" value="0-10">0-10</label><br>
+                <label><input type="radio" name="count" value="11-20">11-20</label><br>
+                <label><input type="radio" name="count" value="21-50">21-50</label><br>
+                <label><input type="radio" name="count" value="50+">50+</label><br>
+                <label><p class="bold">Ваши комментарии:</p>
+                <textarea name="comments" rows="5" cols="60"></textarea></label><br><br>
+                <select name="position" multiple>
+                    <option>Первая позиция</option>
+                    <option>Вторая позиция</option>
+                    <option>Третья позиция</option>
+                </select><br>
+            </fieldset><br>
+            <fieldset>
+                <legend class="bold">И в заключении</legend>
+                <input type="text" name="already" placeholder="Это поле было введено до вас" size="40"><br>
+                <label>Email:<br><input type="email" name="email" size="40"></label><br>
+                <p class="bold">Хотите подписаться на самую модную рассылку спама?<br></p>
+                <span class="italic">Выберите категории</span><br><br>
+                <label><input type="checkbox" name="staff">Оборудование</label><br>
+                <label><input type="checkbox" name="lanch">Как приготовить обеды</label><br>
+                <label><input type="checkbox" name="million">Заработать миллион за два дня!</label><br>
+                <p>Насколько сложная задача:</p>
+                <label><input type="radio" name="difficult" value="easy">Совсем нет</label><br>
+                <label><input type="radio" name="difficult" value="normal">Так себе</label><br>
+                <label><input type="radio" name="difficult" value="hard">Еле справились</label><br>
+            </fieldset><br>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+    </body>
+</html>

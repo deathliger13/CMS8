@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<h1>Урок "Формы": теги и их атрибуты.</h1>
+		<h2>Расскажите немного о себе...</h2>
+		<form action="form.html" method="GET">
+		<fieldset>
+		<legend><b>Коротко о себе:</b></legend>
+		<br>
+		<label for="your name">Имя:<input type="text" id="your name" name="your name" placeholder="Заполните поле"></label>
+		<br><br>
+		<label for="2name">Фамилия:<input type="text" id="2name" name="2name" placeholder="Заполните поле"></label>
+		<br><br>
+			Пол:<input type="radio" name="toto" value="1">Мужской |<input type="radio" name="toto" value="2">Женский<br>
+			Возраст:<input type="number" name="years" min="18" max="50" step="1">лет
+		</fieldset>
+		<br><br>
+		<fieldset>
+		<legend><b>Подробнее о себе:</b></legend>
+		<input type="radio" name="gogo">Молодой человек <br><input type="radio" name="gogo">Девушка<br><br>
+		<input type="date" name="eee">Дата рождения
+		<br><br>	
+		<select>
+				<option>Выберите категорию</option>
+				<option>Замужем</option>
+				<option>Женат</option>
+				<option>В активном поиске</option>
+				<option>Помолвлен</option>
+				<option>Все сложно</option>
+				<option>Есть девушка</option>
+				<option>Есть парень</option>
+		</select>Семейное положение
+		<br><br>
+		<select>
+				<option>Выберите категорию</option>
+				<option>Работаю</option>
+				<option>Студент</option>
+				<option>Пенсионер</option>
+				<option>Не работаю</option>
+		</select>Социальный статус
+		<br><br>
+		<select>
+				<option>Выберите категорию</option>
+				<option>Черкассы</option>
+				<option>Киев</option>
+				<option>Львов</option>
+				<option>Днепр</option>
+		</select>Местожительство
+		<p><b>Что вы обычно делаете на выходных?</b></p>
+			<input type="checkbox" value="1" name="ooo">Сплю<br>
+			<input type="checkbox" value="3" name="ooo">Гуляю с друзьями<br>
+			<input type="checkbox" value="4" name="ooo">Хожу на рыбалку<br>
+			<input type="checkbox" value="5" name="ooo">Играю в игры<br>
+			<br><br>
+			<p><b>Рассказать о формах в книге, посвященной HTML.</b></p>
+			<select>
+			<option value="html">html</option>
+			<option value="css">css</option>
+			<option value="php">php</option>
+			</select>
+			<p><b>Сколько книг вы прочитали за свою жизнь?</b></p>
+			<input type="radio" name="097" value="1-2">1-2<br>
+			<input type="radio" name="097" value="5-15">5-15<br>
+			<input type="radio" name="097" value="15-30">15-30<br>
+			<input type="radio" name="097" value="30-40">30-40<br>
+			<br><br>
+			<p><b>Ваши комментарии:</b></p>
+			<textarea rows="10" name="textbody" placeholder="Заполните поле"></textarea>
+			<br><br>
+				<select>
+				<option>Первая позиция</option>
+				<option>Вторая позиция</option>
+				<option>Третья позиция</option>
+				</select>
+					</fieldset>
+				<br><br>
+				<fieldset>
+				<legend><b>И в заключении</b></legend>
+				<input type="text"  name="b1" placeholder="Это поля было введено до вас">
+				<p><b>Email:</b></p>
+				<input type="text" name="n1">
+				<br><br>
+				<p><b>Хотите подписаться на самую модную расслылку спама?</b><br>
+				 <em>Выберите категории:</em></p>
+				<input type="checkbox" name="068" value="да">да<br>
+			<input type="checkbox" name="058" value="нет">нет<br>
+			<input type="checkbox" name="048" value="думаю">думаю<br>
+			<input type="checkbox" name="038" value="никогда">никогда<br>
+			<br><br>
+			<p><b>На сколько сложная задача?</b></p>
+			<input type="radio" name="037" value="сложная">сложная<br>
+			<input type="radio" name="037" value="очень сложная">очень сложная<br>
+			<input type="radio" name="037" value="очень сильно сложная">очень сильно сложная<br>
+			<br><br>
+			<input type="submit" name="Отправить" value="Отправить">
+			
+				
+				</fieldset>
+		</form>
+		
+	</body>
+</html>

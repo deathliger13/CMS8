@@ -1,0 +1,121 @@
+* {
+    font-family: arial;
+}
+
+header {
+  background: #FAFAFA;  
+  
+}
+
+footer{
+    padding-left: 145px;
+    background: #FAFAFA;    
+}
+
+.search {
+    height: 35px;
+    width: 540px;
+    font-size: 16px;
+    border-style: outset;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.list {
+    padding: 15px;
+    padding-left: 137px;
+    padding-right: 550px;
+    line-height: 13px;
+}
+
+.text {
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.nav {
+    padding-left: 130px;
+    font-size: 14px;
+}
+
+input [type="image"] {
+    left: 100;
+}
+
+a { 
+    text-decoration: none;
+} 
+   
+table {
+    padding-left: 157px;
+    font-size: 14px;
+}
+
+.moreSearched {
+    padding-left: 157px;
+    font-weight: normal; 
+    font-size: 17px;
+}
+
+.list a:first-child {
+    font-size: 16px;
+}
+
+.navigation {
+    padding-left: 230px;
+}
+
+.undertext {
+    font-size: 12px;
+}
+
+.undertext a:first-child {
+    font-size: 12px;
+}
+
+.url {
+    font-size: 13px;
+    margin-top: 5px;
+}
+.url a:first-child {
+    font-size: 13px;
+}
+
+.footer {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.ghost {
+    opacity: 0.5;
+}
+
+.searchimage {
+    position: relative;
+    left: -34px;
+    top: 7px;
+}
+
+.keyboard {
+    position: relative;
+    left: -90px;
+    top: 1px;
+}
+
+.Gplus {
+    position: relative;
+    left: 420px;
+    top: 10px;
+}
+
+.bell {
+    position: relative;
+    left: 415px;
+    top: 10px;
+}
+
+.panel {
+    position: relative;
+    left: 415px;
+    top: 10px;
+}

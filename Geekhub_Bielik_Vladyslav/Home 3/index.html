@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home3</title>
+    <style>
+        body {
+            margin: 0px auto;
+            min-width:800px;
+            max-width:800px;
+        }
+
+        #num {
+            width: 35px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Урок "Формы": теги и их атрибуты.</h2>
+    <h3>Расскажите немного о себе...</h3>
+    <p>
+        Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.
+    </p>
+</header>
+<section>
+
+
+    <form action="" method="get">
+
+        <fieldset>
+            <legend><strong>Коротко о себе</strong></legend>
+            <p>Имя: <input type="text" name="text"></p>
+            <p>Фамилия: <input type="text" name="text"></p>
+
+            <label for="r1">
+                <p>Пол: <input id="r1" type="radio" name="rr">мужской<input id="r1" type="radio" name="rr">женский</p>
+            </label>
+
+            <label for="name">
+                <p>Возраст: <input id="num" type="number" name="text2"> лет</p>
+            </label>
+        </fieldset> <br>
+
+        <fieldset>
+            <legend><strong>Подробнее о себе</strong></legend>
+            <p><input id="r2" type="radio" name="r2">Молодой человек <br>
+            <input id="r2" type="radio" name="r2">Девушка <br>
+            <input type="date" name="birth"> Дата рождения <br>
+            <input type="text" name="famstat"> Семейное положение <br>
+            <input type="text" name="socstat"> Социальный статус <br>
+            <input type="text" name="place"> Место жительства</p> <br>
+
+            <legend>
+                <strong>Что вы обычно делаете на выходных:</strong>
+            </legend>
+
+            <p>
+                <input type="checkbox" name="holidays">Сплю <br>
+                <input type="checkbox" name="holidays">Гуляю с друзьями <br>
+                <input type="checkbox" name="holidays">Хожу на рыбалку <br>
+                <input type="checkbox" name="holidays">Играю в игры
+            </p>
+
+            <legend>
+                <strong>Рассказать о формах в книге, посвященной HTML</strong>
+            </legend> <br>
+
+            <select name="pselect">
+                <option>Site frequency1</option>
+                <option>Site frequency2</option>
+                <option>Site frequency3</option>
+                <option>Site frequency4</option>
+            </select> <br> <br>
+
+            <legend>
+                <strong>Сколько книг вы прочитали за всю свою жизнь:</strong>
+            </legend>
+
+            <p>
+                <input type="radio" name="r3">0-10 <br>
+                <input type="radio" name="r3">11-20 <br>
+                <input type="radio" name="r3">21-50 <br>
+                <input type="radio" name="r3">50+
+            </p> <br>
+
+            <legend>
+                <strong>Ваши комментарии:</strong>
+            </legend>
+
+            <textarea name="textbody" cols="100" rows="10"></textarea> <br>
+
+            <select name="position">
+                <option>Первая позиция</option>
+                <option>Вторая позиция</option>
+                <option>Третья позиция</option>
+            </select>
+
+        </fieldset> <br>
+
+        <fieldset>
+
+            <legend>
+                <strong>И в заключении</strong>
+            </legend>
+
+            <input type="text" placeholder="Это поле было введено до вас" size="70"> <br> <br>
+
+            <legend>
+                <strong>Email:</strong>
+            </legend>
+
+            <input type="email" name="email" required="required"> <br> <br>
+
+            <legend>
+                <strong>Хотите подписаться на самую модную рассылку спама?</strong>
+            </legend>
+
+            <span><i>Выберите категории</i></span>
+
+            <p>
+                <input type="checkbox" name="category">Оборудование <br>
+                <input type="checkbox" name="category">Как приготовить обеды <br>
+                <input type="checkbox" name="category">Заработай миллион за два дня! <br>
+            </p>
+
+            <legend>
+                <strong>Насколько сложная задача:</strong>
+            </legend>
+
+            <p>
+                <input type="radio" name="rr1">Совсем нет <br>
+                <input type="radio" name="rr1">Так себе <br>
+                <input type="radio" name="rr1">Еле справились
+            </p>
+
+        </fieldset> <br>
+
+        <button>Отправить</button> <br> <br>
+
+    </form>
+
+</section>
+
+</body>
+</html>

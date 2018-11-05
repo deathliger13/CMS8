@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Немного о себе</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Урок "Формы": теги и их атрибуты.</h1>
+    <h2>Расскажите немного о себе...</h2>
+    <p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.</p>
+
+    <form action="#"  method="get">
+        <fieldset>
+            <legend>Коротко о себе</legend>
+
+            <label for="name">Имя:</label>
+            <input id="name" type="text"><br>
+
+            <label for="second-name">Фамилия:</label>
+            <input id="second-name" type="text"><br>
+
+            <label for="second-name">Пол:</label>
+            <input id="r1" type="radio" name="sex" checked>
+            <label for="r1">мужской</label>
+            <input id="r2" type="radio" name="sex">
+            <label for="r2">женский</label><br>
+
+            <label for="age">Возрост:</label>
+            <input id="age" type="number"  size="3" name="age" min="1" max="120" value="23">
+            <label for="age">лет</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Подробнее о себе</legend>
+
+            <input id="r3" type="radio" name="sex-2" checked>
+            <label for="r3">Молодой человек</label><br>
+            <input id="r4" type="radio" name="sex-2">
+            <label for="r4">Девушка</label><br>
+
+            <!--Не провтикать пофіксити інпути-->
+            <input id="born" type="date" name="born" value="1995-05-17" min="1917-01-01" max="2018-10-24">
+            <label for="born">Дата рождения</label><br>
+            <select name="have-love" id="have-love">
+                <option value="no">Нет</option>
+                <option value="yes" selected>Да</option>
+                <option value="gey">Гей</option>
+                <option value="lesby">Лезбі</option>
+            </select>
+            <label for="have-love">Семейное положение</label><br>
+            <select name="have-love" id="social-status">
+                <option value="pupil">Ученик</option>
+                <option value="work">Работаю</option>
+                <option value="student" selected>Студент</option>
+                <option value="parent-eat">У родителей на шее</option>
+            </select>
+            <label for="social-status">Социальный статус</label><br>
+            <input type="text" name="location" id="location">
+            <label for="location">Местожительство</label><br>
+            <!--не провтикать інпути пофіксити-->
+
+            <p><b>Что вы обычно делаете на выходных:</b></p>
+            <input id="c1" value="sleep" type="checkbox" name="sleep">
+            <label for="c1">Сплю</label><br>
+            <input id="c2" value="hang-out-with-friends"  type="checkbox" name="hang-out-with-friends">
+            <label for="c2">Гуляю с друзьями</label><br>
+            <input id="c3" value="fishing"  type="checkbox" name="fishing">
+            <label for="c3">Хожу на рыбалку</label><br>
+            <input id="c4" value="play-game"  type="checkbox" name="play-game">
+            <label for="c4">Играю в игры</label><br>
+
+            <p><b>Расказать о формах в ниге, посвященной HTML:</b></p>
+            <select name="form-in-book" title="form-in-book">
+                <option value="smt-1">Site frequency</option>
+                <option value="smt-2">smt-2</option>
+                <option value="smt-3">smt-3</option>
+                <option value="smt-4">smt-4</option>
+            </select>
+
+            <p><b>Сколько книг Вы прочитали за свою жизнь:</b></p>
+            <input id="r5" type="radio" name="male">
+            <label for="r5">0-10</label><br>
+            <input id="r6" type="radio" name="male">
+            <label for="r6">11-20</label><br>
+            <input id="r7" type="radio" name="male">
+            <label for="r7">21-50</label><br>
+            <input id="r8" type="radio" name="male">
+            <label for="r8">50+</label><br>
+
+            <label for="comments"><b>Ваши комментарии:</b></label><br>
+            <textarea id="comments" rows="10" cols="65" name="textarea"></textarea><br>
+
+            <select name="position" size="3" title="position">
+                <option value="1-pos">Первая позиция</option>
+                <option value="2-pos" selected>Вторая позиция</option>
+                <option value="3-pos">Третья позиция</option>
+                <option value="4-pos">Четвортая позиция</option>
+                <option value="5-pos">Пьятая позиция</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>И в заключении</legend>
+
+            <input type="text" title="for-us" placeholder="Это поле было введено до вас"><br><br>
+
+            <label for="second-email"><b>Email:</b></label><br>
+            <input id="second-email" type="email"><br><br>
+
+            <p><b>Хотите подписаться на самую модную рассылку спама?</b></p>
+            <p><em>Выберите категории</em></p>
+
+            <input id="c5" value="equipment" type="checkbox" name="equipment">
+            <label for="c5">Оборудование</label><br>
+            <input id="c6" value="food"  type="checkbox" name="food">
+            <label for="c6">Как приготовить обеды</label><br>
+            <input id="c7" value="lemon"  type="checkbox" name="lemon">
+            <label for="c7">Заработай миллион за два дня!</label><br>
+
+            <p><b>На сколько сложная задача:</b></p>
+            <input id="r9" type="radio" name="hard-task" checked>
+            <label for="r9">Совсем нет</label><br>
+            <input id="r10" type="radio" name="hard-task">
+            <label for="r10">Так себе</label><br>
+            <input id="r11" type="radio" name="hard-task">
+            <label for="r11">Еле справились</label><br>
+        </fieldset>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>

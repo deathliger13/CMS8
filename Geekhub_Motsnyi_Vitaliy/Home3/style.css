@@ -1,0 +1,16 @@
+body {
+	width: 1140px;
+	margin: 0 auto;
+	background-clip: content-box;
+}
+legend{
+	font-size: 18px;
+	font-weight: bold;
+}
+.spammer {
+	margin: 0px;
+}
+div{
+	font-style: oblique;
+}
+	

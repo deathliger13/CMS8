@@ -1,0 +1,28 @@
+body {
+	background: #FFF5EE;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+header{
+	text-align: center;
+}
+.content {
+	width: 1140px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 50px;
+}
+ul {
+	font-size: 20px;
+}
+.illustration {
+	align: left;
+}
+a:hover {
+	color: #FF0000
+}
+
+	

@@ -1,0 +1,59 @@
+* {
+	font-family: "Times New Roman", serif;
+	max-width: 656px;
+    margin: 20px auto;
+}	
+*table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 7px 20px;
+}
+
+/*style for table statistics*/
+table.statistics, table.statistics th, table.statistics td {
+    border-collapse: collapse;
+	border: 1px solid black;
+	table-layout: fixed;
+    width: 60%;
+}
+table.statistics thead th:nth-child(1) {
+    width: 25%;
+}
+table.statistics thead th:nth-child(2) {
+    width: 45%;
+}
+table.statistics thead th:nth-child(3) {
+    width: 30%;
+}
+table.statistics td {
+    padding: 7px 30px 5px 5px;
+}
+table.statistics thead td {
+    text-align: center;
+	font-style: italic;
+}
+
+/*style for table timetable*/
+table.timetable, table.timetable th, table.timetable td {
+    border-collapse: collapse;
+	border: 1px solid black;
+	table-layout: fixed;
+    width: 80%;
+	font-family: "Arial", sans-serif;
+	
+}
+
+/*style for table loremipsum*/
+table.loremipsum, table.loremipsum th, table.loremipsum td {
+    border-collapse: collapse;
+	border: 1px solid black;
+	table-layout: fixed;
+    width: 60%;
+	
+	text-align: center;
+}
+
+/*style for table price*/
+table.price, table.price th, table.price td {
+   	border: 1px solid black;
+}

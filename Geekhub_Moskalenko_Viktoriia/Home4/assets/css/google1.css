@@ -1,0 +1,104 @@
+form{
+	background-color: #F0F0F0;
+	border: #000 1px solid;
+	border-color: #A9A9A9;
+}
+
+
+.first{
+	margin: 15px 115px 20px 115px;
+	
+}
+
+.first:hover{
+	color: #F08080;
+}
+
+p{
+    margin-left: 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+}
+
+p:hover{
+	color: #F08080;
+}
+
+
+a{
+	margin: 10px;
+	color: #008000;
+	padding: 2px;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #DC143C; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+    background: #FFEFD5;
+	border: 0.5px solid silver;
+   }
+
+
+.imag{
+	display: inline-block;
+	left: 695px;
+	top: 40px;
+	position: absolute;
+}
+
+input{
+	display: inline-block;
+	margin: 10px 0 5px ;
+}
+
+.popo{
+	display: inline-block;
+	right: 35px;
+	top: 22px;
+	position: absolute;
+	
+}
+.lklk{
+	width: 650px;
+	height: 30px;
+}
+
+.nono{
+	margin-left: 125px;
+}
+.niz {
+	border: 2px solid silver;
+	height: 110px;
+	margin: -5px;
+	background: #FFE4E1;
+}
+h4 {
+	margin-left: 180px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	display: inline-block;
+}
+
+tr{
+	display: inline-block;
+}
+
+.ll {
+height: 55px;
+width: 400px;
+margin: 10px 0 25px 300px;
+padding: 10px;
+margin-left: 300px;
+}
+
+.olko {
+margin-left: 350px;	
+}
+
+.pol{
+	float: left;
+	margin-right: 15px;
+}
+
+
+

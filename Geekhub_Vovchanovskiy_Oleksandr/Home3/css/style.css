@@ -1,0 +1,16 @@
+.com_bold, legend, p  {
+    font-weight: 900;
+}
+.com_ital {
+	font-weight: normal;
+    font-style: italic;
+}
+.marg_t{
+	margin: 15px 0;
+}
+#button {
+    margin: 5px 15px;
+}
+fieldset {
+    margin: 15px;
+}

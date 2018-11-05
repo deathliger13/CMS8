@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="css/style.css" rel="stylesheet"> 
+</head>
+
+<body>
+    <form action="" method="get">
+	    <fieldset>
+	        <legend>Коротко о себе</legend>
+		        <div class="marg_t">
+				    <label for="f_name">
+			            Имя:
+				        <input type="text" id="f_name" name="firstname" value="" size="30" required>
+ 			        </label>
+				</div>
+				<div class="marg_t">
+				    <label for="l_name">
+			            Фамилия:
+				        <input type="text" id="l_name" name="lastname" value="" size="30" required>
+ 			        </label>
+				</div>
+				<div class="marg_t">
+				    <label>Пол:</label>
+					<label for="male">
+						<input type="radio" id="male" name="gender" value="male" checked>
+					    мужской
+					</label>
+					<label for="female">
+						<input type="radio" id="female" name="gender" value="female">
+						женский
+					</label>
+				</div>
+				<div class="marg_t">
+				    <label for="age">
+					    Возраст:
+						<input type="number" id="age" name="age" min="1" max="99" step="1" required>
+						лет
+					</label>
+				</div>
+		</fieldset>
+		
+		<fieldset>
+	        <legend>Подробнее о себе</legend>
+			    <div>
+					<label for="boy">
+						<input type="radio" id="boy" name="gender_detail" value="boy" checked>
+					    Молодой человек
+					</label>
+				</div>  
+				<div>
+					<label for="girl">
+						<input type="radio" id="girl" name="gender_detail" value="girl">
+						Девушка
+					</label>
+				</div>   
+                <div>
+				    <label for="b_day">
+				        <input id="b_day" type="text" name="b_day">
+						Дата рождения
+					</label>
+				</div>
+				<div>
+				    <label for="m_status">
+				        <input id="m_status" type="text" name="m_status">
+						Семейное положение
+					</label>
+                </div>				
+				<div>
+				    <label for="s_status">
+				        <input id="s_status" type="text" name="s_status">
+						Социальный статус
+					</label>
+                </div>	
+				<div>
+				    <label for="residence">
+				        <input id="residence" type="text" name="residence">
+						Местожительство
+					</label>
+                </div>				
+				<p>Что вы обычно делаете на выходных:</p>
+				<div>
+				    <label for="sleep">
+					    <input id="sleep" type="checkbox" name="weekend" value="sleep">
+						Сплю
+					</label>
+				</div>
+				<div>
+				    <label for="play_w_fr">
+					    <input type="checkbox" id="play_w_fr" name="weekend" value="play_with_friends">
+						Гуляю с друзьями
+					</label>
+				</div>
+				<div>
+				    <label for="fishing">
+					    <input type="checkbox" id="fishing" name="weekend" value="fishing">
+						Хожу на рыбалку
+					</label>
+				</div>
+				<div>
+				    <label for="play_games">
+					    <input type="checkbox" id="play_games" name="weekend" value="play_games">
+						Играю в игры
+					</label>
+				</div>
+				<p>Рассказать о формах в книге, посвяженной HTML:</p>
+				<div>
+                <select name="list_book">
+                    <optgroup label="HTML and CSS:">
+                        <option value="Design and Build Websites">Design and Build Websites</option>
+                        <option value="Beginning Web Programming">Beginning Web Programming</option>
+                        <option value="Visual QuickStart Guide">Visual QuickStart Guide</option>
+                    </optgroup>
+                    <optgroup label="Forms in HTML:">
+                        <option value="Forms of Representation">Forms of Representation</option>
+                        <option value="Usable Forms for the Web">Usable Forms for the Web</option>
+                        <option value="Designing Web Forms for Usability">Designing Web Forms for 
+						Usability</option>
+                    </optgroup>
+                </select>
+				</div>
+				<p>Сколько книг вы прочитали за свою жизнь:</p>
+                <div>  
+					<label for="r1">
+						<input type="radio" id="r1" name="num_books" value="0-10">
+						0-10
+					</label>
+				</div>   
+                <div>  
+					<label for="r2">
+						<input type="radio" id="r2" name="num_books" value="11-20">
+						11-20
+					</label>
+				</div>  
+                <div>  
+					<label for="r3">
+						<input type="radio" id="r3" name="num_books" value="21-50">
+						21-50
+					</label>
+				</div>  
+                <div>  
+					<label for="r4">
+						<input type="radio" id="r4" name="num_books" value="50+">
+						50+
+					</label>
+				</div> 
+				<div class="marg_t">
+				    <div class="com_bold">
+				        <label for="coments">
+					    Ваши коментарии:
+					    </label>
+				    </div>
+				    <div>
+				        <textarea id="coments" rows="10" cols="50" name="coments"></textarea>
+				    </div>
+				</div>
+				<div class="">
+				    <select size="3" multiple name="position">
+					    <option value="pos1">Первая позиция</option>
+                        <option selected value="pos2">Вторая позиция</option>
+                        <option value="pos3">Третья позиция</option>
+					</select>
+				</div>
+		</fieldset>
+		
+		<fieldset>
+	        <legend>И в заключении</legend>
+			    <div class="marg_t">
+				    <input type="text" name="int_field" size="30" placeholder="Это поле было введено до вас"> 
+				</div>
+				<div class="marg_t com_bold">
+				    <label for="email">
+				        Email:
+					</label>
+					<div>
+						<input id="email" type="email" name="email" size="30" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+				    </div>
+				</div>
+				<div class="marg_t">
+				    <div class="com_bold">Хотите подписаться на самую модную рассылку спама?</div>
+				    <div class="com_ital">Выберите категории</div>
+				</div>
+				<div class="marg_t">
+				    <div>
+				        <label for="device">
+					        <input type="checkbox" id="device" name="category" value="device">
+						    Оборудование
+					    </label>
+			  	    </div>
+				    <div>
+				        <label for="dinner">
+					        <input type="checkbox" id="dinner" name="category" value="dinner">
+					  	    Как приготовить обеды
+					    </label>
+				    </div>
+				    <div>
+				        <label for="million">
+					        <input type="checkbox" id="million" name="category" value="million">
+						    Заработай миллион за два дня!
+					    </label>
+				    </div>
+				</div>
+				<div class="marg_t com_bold">На сколько сложная задача:</div>
+				<div class="marg_t">  
+				    <div> 
+					    <label for="low">
+						    <input type="radio" id="low" name="level" value="low" checked>
+						    Совсем нет
+					    </label>
+				    </div>  
+                    <div>  
+					    <label for="medium">
+						    <input type="radio" id="medium" name="level" value="medium">
+						    Так себе
+					    </label>
+				    </div>  
+                    <div>  
+					    <label for="hard">
+						    <input type="radio" id="hard" name="level" value="hard">
+						    Еле справились
+					    </label>
+				    </div>
+				</div>
+		</fieldset>
+	    <input id="button" type="submit" value="Отправить">
+	</form>
+</body>
+</html>
