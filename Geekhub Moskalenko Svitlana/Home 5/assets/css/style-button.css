@@ -1,0 +1,125 @@
+body {
+  background-color: #5a5555;
+  width: 601px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.paragraph {
+  background-color: #f9f6e4;
+  width: 601px;
+  height: 425px;
+  position: absolute;
+  margin: auto;
+  box-shadow: 10px 10px 10px 10px #232323;
+  border-radius: 0 0 10px 10px;
+}
+
+.form {
+  padding: 20px 10px 10px 10px;
+  position: relative;
+}
+
+.frame {
+  background-color: #854406;
+  width: 601px;
+  height: 43px;
+  position: relative;
+  margin: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+h1 {
+  width: 244px;
+  height: 19px;
+  color: #ffffff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  padding: 0 0 0 15px;
+  top: -54px;
+  z-index: 3;
+}
+
+.parag-raph-1 {
+  width: 260px;
+  height: 31px;
+  position: relative;
+  top: -140px;
+  left: 15px;
+}
+
+.parag-raph-2 {
+  position: relative;
+  left: 40px;
+  border: 1px solid #909090;
+  top: 60px;
+}
+
+.parag-raph-3 {
+  width: 260px;
+  height: 31px;
+  position: relative;
+  left: 15px;
+  top: -80px;
+}
+
+select, option {
+  width: 260px;
+  height: 32px;
+  position: relative;
+  top: -40px;
+  left: 15px;
+}
+
+button {
+  position: relative;
+  left: 330px;
+  top: -33px;
+  background-color: #f9f6e4;
+}
+
+.name {
+  width: 260px;
+  height: 31px;
+  position: relative;
+  top: -385px;
+  left: 15px;
+}
+
+.email {
+  width: 260px;
+  height: 31px;
+  position: relative;
+  bottom: 335px;
+  left: 15px;
+}
+
+.message {
+  width: 260px;
+  height: 31px;
+  position: relative;
+  top: -526px;
+  left: 308px;
+}
+
+.select {
+  width: 260px;
+  height: 31px;
+  position: relative;
+  bottom: 290px;
+  left: 15px;
+}
+
+.we {
+  width: 260px;
+  height: 31px;
+  position: relative;
+  bottom: 300px;
+  left: 15px;
+  color: #b8002f;
+}
+
+

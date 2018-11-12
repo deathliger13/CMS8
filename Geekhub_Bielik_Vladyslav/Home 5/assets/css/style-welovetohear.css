@@ -1,0 +1,103 @@
+button {
+    background-image: url(../img/button-pink.png);
+    width: 186px;
+    height: 56px;
+    text-shadow: 0 1px 0 #ffffff;
+    color: #a24d00;
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 30px;
+}
+
+.container {
+    width: 601px;
+    height: 421px;
+    background-color: #f9f6e4;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.form {
+    display: flex;
+    margin-bottom: 29px;
+    margin-top: 41px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-left: 34px;
+    font-family: "Trebuchet MS", serif;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.headline {
+    height: 43px;
+    background-image: linear-gradient(to top, #854406 0%, #854406 9%, #854406 15%, #ad5604 79%, #b75a03 95%, #ce8842 100%);
+    border-radius: 6px 6px 0 0;
+}
+
+.indent {
+    margin-top: 24px;
+}
+
+input, select {
+    width: 260px;
+    height: 33px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #909090;
+    background-color: #ffffff;
+}
+
+.message {
+    margin-left: 19px;
+    margin-right: 32px;
+}
+
+.name-input {
+    margin-left: 30px;
+}
+
+span {
+    width: 66px;
+    height: 9px;
+    color: #202020;
+    font-family: "Trebuchet MS";
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+
+.submit {
+    margin-right: 32px;
+    display: flex;
+}
+
+.submit .message {
+    margin-left: 70px;
+}
+
+.submit .name-input p {
+    width: 246px;
+    height: 33px;
+    color: #b8002f;
+    font-family: "Trebuchet MS";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+}
+
+textarea {
+    width: 260px;
+    height: 189px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #909090;
+    background-color: #ffffff;
+    resize: none;
+}

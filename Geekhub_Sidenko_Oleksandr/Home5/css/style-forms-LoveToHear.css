@@ -1,0 +1,85 @@
+body {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-hear h1 {
+  padding-left: 30px;
+  color: #ffffff;
+  font-family: "Arial MT", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #9c4e05;
+  border-radius: 10px 10px 0 0 ;
+}
+
+li {
+  list-style: none;
+}
+
+.form-hear {
+  margin: 0 auto;
+  width: 680px;
+  height: 250px;
+  background-color: #f9f6e4;
+  border-radius: 10px;
+}
+
+.form-hear label{
+  color: #000000;
+  font-family: "Arial MT", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+li, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.form-hear ul {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: self-start;
+}
+
+.form-hear li {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.form-hear ul {
+  height: 300px;
+}
+
+.form-hear textarea {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 20px;
+
+}
+
+.form-hear input[type=submit]{
+  margin-left: 100px;
+  width: 90px;
+  height: 30px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #f3eee9;
+  border: solid 5px white;
+
+}
+
+p {
+    width: 246px;
+  height: 33px;
+  color: #b8002f;
+  font-family: "Trebuchet MS", serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}

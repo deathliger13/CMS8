@@ -1,97 +1,110 @@
 .wrapper {
-	height: 130px;
-	margin: -5px;
-	background: #FFE4E1;
-	border: 2px solid silver;
+  height: 130px;
+  margin: -5px;
+  background: #ffffff;
+  border: 2px solid silver;
 }
 img {
-	padding: 0 2px;
+  padding: 0 2px;
 }
-.helouin {
-	float: left;
-	margin: 25px 0 25px 25px;
+
+.halloween {
+  float: left;
+  margin: 25px 0 25px 25px;
 }
-.classik {
-	height: 15px;
-	width: 720px;
-	margin: 10px 0 25px 25px;
-	padding: 10px;
-	display: inline-block;
+
+.search-engine {
+  width: 710px;
+  height: 25px;
+  top: 40px;
+  left: 200px;
+  position: absolute;
+  display: inline-block;
 }
+
 .image {
-	display: inline-block;
-	top: 40px;
-	left: 820px;
-	position: absolute;
+  display: inline-block;
+  top: 43px;
+  left: 820px;
+  position: absolute;
 }
-.avatar {
-	display: inline-block;
-	top: 30px;
-	left: 1450px;
-	position: absolute;
+
+.lateral-side {
+  display: inline-block;
+  top: 30px;
+  left: 1450px;
+  position: absolute;
 }
-.elementy{
-	top: 82px;
-	left: 190px;
-	position: absolute;
-	font-family: "Segoe UI", Arial, sans-serif;
-	}
-a {
-	color: #696969;
-	padding: 2px;
-	margin: 10px;
-	text-decoration: none; /* Отменяем подчеркивание у ссылки */
+
+.photo-photo {
+  width: 26px;
+  height: 26px;
 }
-a:hover {
-	color: #FF1493;
-}
-.elementy:hover {
-  border: 2px solid silver;
-	background: #E6E6FA;
-}
-.content{
-	margin-left: 180px;
+
+.elementy {
+  top: 82px;
+  left: 190px;
+  position: absolute;
   font-family: "Segoe UI", Arial, sans-serif;
 }
+
+a {
+  color: #808080;
+  padding: 2px;
+  margin: 10px;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-left: 180px;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
 h2 a {
-	color: #000080;
-	margin: 0;
+  color: #00008b;
+  margin: 0;
+  font-family: Times, Times New Roman, serif;
+  font-size: 22px;
 }
-.niz {
-	border: 2px solid silver;
-	height: 110px;
-	margin: -5px;
-	background: #FFE4E1;
+
+.bottom-1 {
+  border: 2px solid silver;
+  height: 110px;
+  margin: -5px;
+  background: #dcdcdc;
 }
+
 h4 {
-	margin-left: 180px;
-	font-family: "Segoe UI", Arial, sans-serif;
+  margin-left: 180px;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
-.nizz {
-margin-left: 167px;	
+
+.bottom {
+  margin-left: 167px;
 }
-.gu-gu {
-height: 55px;
-width: 400px;
-margin: 10px 0 25px 300px;
-padding: 10px;
-margin-left: 300px;
+
+.pages {
+  height: 55px;
+  width: 400px;
+  margin: 10px 0 25px 300px;
+  padding: 10px;
+
 }
-.poisk-gu {
-margin-left: 340px;
+
+.google-search {
+  margin-left: 340px;
 }
+
 .book {
-	float: left;
-	margin-right: 15px;
+  float: left;
+  margin-right: 15px;
 }
+
 .books1 {
-	float: left;
-	margin-right: 15px;
-}
-.snimok {
-	color: #FF1493;
-}
-.snimok:hover {
-border: 2px solid silver;
-	background: #E6E6FA;
+  float: left;
+  margin-right: 15px;
 }

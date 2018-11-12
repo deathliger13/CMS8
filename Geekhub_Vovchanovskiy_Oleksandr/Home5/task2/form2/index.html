@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="assets/style/normalize.css" rel="stylesheet">
+    <link href="assets/style/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="form">
+    <h2>Leave your comment here</h2>
+    <form id="form-id" action="#" method="post">
+        <div class="column">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="your-name">
+            <label for="email">Your Email (Required):</label>
+            <input type="email" id="email" name="email" required>
+            <label for="site">Your Website:</label>
+            <input type="text" id="site" name="site" placeholder="http://">
+            <input type="checkbox" id="snd-email" name="send-email" checked>
+            <label for="snd-email">Notify me follow-up comments via email.</label>
+        </div>
+        <div class="column">
+            <label for="comment">Your Comment Here:</label>
+            <textarea id="comment" rows="50" cols="40" name="comment"></textarea>
+            <input type="submit" form="form-id" value="Submit">
+        </div>
+    </form>
+</div>
+</body>
+</html>

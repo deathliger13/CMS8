@@ -11,30 +11,19 @@
 <body>
     <header>
         <div class="container">
-
-            <a class="logo" href="#">
-                <img src="assets/img/googlelogo.png" width="120" height="44" alt="logo" title="Главная страница Google">
-            </a>
-
-            <form action="#" method="get">
+            <h1>
+                <a class="logo" href="#">
+                <img src="assets/img/googlelogo.png" alt="logo" title="Главная страница Google">
+                </a>
+            </h1>
                 <div class="search">
-                    <input type="text" name="q" title="Поиск" value="css selector">
-                        <div class="input-buttons">
-                            <input type="submit" name="keyboard" title="Экранная клавиатура" value="">
-                            <input type="submit" name="voice" title="Голосовой поиск" value=""> 
-                            <button class="btn-src" name="src" type="submit" value="">
-                                <span class="src-icon">
-                                <svg viewBox="0 0 24 24"> 
-                                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 
-                                16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 
-                                14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
-                                </svg>
-                                </span>
-                            </button>
-                        </div>
-                </div>
-            </form>    
-
+                    <form action="#" method="get">
+                        <input type="text" name="q" title="Поиск" value="css selector">
+                        <input type="button" name="keyboard" title="Экранная клавиатура" value="key" onclick="location.href='#'">
+                        <input type="button" name="voice" title="Голосовой поиск" value="voi" onclick="location.href='#'">
+                        <input class="btn-src" type="submit">
+                    </form>
+                </div>  
             <nav class="user-app">
                 <ul class="user-app-ul">
                     <li><a href="#"><img src="assets/img/dev.png" alt="applications" title="Приложения Google"></a></li>
@@ -42,7 +31,6 @@
                     <li><a href="#"><img class="user-photo" src="assets/img/photo.jpg" alt="user" title="Аккаунт Google:"></a></li>
                 </ul>
             </nav>
-
             <nav class="main-menu">
                 <ul class="menu-set">
                     <li><a href="#">Все</a></li>
@@ -64,39 +52,40 @@
             <ul class="results-list">
                 <li>
                     <div class="site-src">
-                        <a class="" href="#"><h3>CSS Selectors Reference - W3Schools</h3>https://www.w3schools.com/cssref/css_selectors.asp 
+                        <a class="" href="#"><h2>CSS Selectors Reference - W3Schools</h2>
+                        https://www.w3schools.com/cssref/css_selectors.asp 
                         <span class="triangle">▼</span>
                         </a>
                         <a class="transl" href="#">Перевести эту страницу</a>
                     </div>
                     <div class="text">
-                        <em>CSS Selectors.</em> In <em>CSS, selectors</em> are patterns used to select the element(s) you want to style. 
-                        Use our <em>CSS Selector</em> Tester to demonstrate the different selectors.
+                        <em>CSS Selectors.</em> In <em>CSS, selectors</em> are patterns used to select the 
+                        element(s) you want to style. Use our <em>CSS Selector</em> Tester to demonstrate the different selectors.
                     </div>
                     <div class="site-links">
                         <a href="#">‎Element+element</a> · <a href="#">CSS * Selector</a> · <a href="#">‎Element1~element2</a> · 
                         <a href="#">CSS Selector Tester</a>
                     </div>
                 </li>
-
                 <li>
                     <div class="site-src">
-                        <a href="#"><h3>Знаете ли вы селекторы? - Современный учебник Javascript</h3>https://learn.javascript.ru/css-selectors 
+                        <a href="#"><h2>Знаете ли вы селекторы? - Современный учебник Javascript</h2>
+                        https://learn.javascript.ru/css-selectors 
                         <span class="triangle">▼</span>
                         </a>
                     </div>
                     <div class="text">
-                        <em>CSS3</em>-селекторы – фундаментально полезная вещь. Даже если вы почему-то (старый IE?) не пользуетесь ими в <em>CSS</em>, 
-                        есть много фреймворков для их ...
+                        <em>CSS3</em>-селекторы – фундаментально полезная вещь. Даже если вы почему-то 
+                        (старый IE?) не пользуетесь ими в <em>CSS</em>, есть много фреймворков для их ...
                     </div>
                     <div class="site-links">
                         <a href="#">‎‎Основные виды селекторов</a> · <a href="#">Отношения</a> · <a href="#">‎Селекторы атрибутов</a>
                     </div>
                 </li>
-
                 <li>
                     <div class="site-src">
-                        <a href="#"><h3>CSS-селекторы - CSS | MDN</h3>https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Селекторы
+                        <a href="#"><h2>CSS-селекторы - CSS | MDN</h2>
+                        https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Селекторы
                         <span class="triangle">▼</span>
                         </a>
                     </div>
@@ -106,101 +95,108 @@
                     <div class="site-links">
                         <a href="#">‎‎‎Базовые селекторы</a> · <a href="#">Комбинаторы</a>
                     </div>
-                </li>
-                
+                </li> 
                 <li>
                     <div class="site-src">
-                        <a href="#"><h3>Level up your CSS selector skills – LogRocket</h3>https://blog.logrocket.com/level-up-your-css-selector-skills-5...
+                        <a href="#"><h2>Level up your CSS selector skills – LogRocket</h2>
+                        https://blog.logrocket.com/level-up-your-css-selector-skills-5...
                         <span class="triangle">▼</span>
                         </a>
                         <a class="transl" href="#">Перевести эту страницу</a>
                     </div>
                     <div class="text">
-                        4 июн. 2018 г. - An in-depth review of interesting <em>CSS selectors</em>, plus a few that will be available in the future.
+                        4 июн. 2018 г. - An in-depth review of interesting <em>CSS selectors</em>, 
+                        plus a few that will be available in the future.
                     </div>
                 </li>
-
                 <li>
                     <div class="site-src">
-                        <a href="#"><h3>Глава 2: Селекторы, часть 1 — Курс «Основы CSS» — HTML ...</h3>https://htmlacademy.ru/courses/42
+                        <a href="#"><h2>Глава 2: Селекторы, часть 1 — Курс «Основы CSS» — HTML ...</h2>
+                        https://htmlacademy.ru/courses/42
                         <span class="triangle">▼</span>
                         </a>
                     </div>
                     <div class="text">
-                        Опробуем один из самых важнейших механизмов <em>CSS</em> — селекторы. Научимся пользоваться простыми и продвинутыми селекторами, 
-                        псевдоклассами, ...
+                        Опробуем один из самых важнейших механизмов <em>CSS</em> — селекторы. Научимся пользоваться 
+                        простыми и продвинутыми селекторами, псевдоклассами, ...
                     </div>
                 </li>   
-                
                 <li>
                     <div class="site-src">
-                        <a href="#"><h3>CSS Selectors | HTML Dog</h3>htmldog.com/references/css/selectors/
+                        <a href="#"><h2>CSS Selectors | HTML Dog</h2>htmldog.com/references/css/selectors/
                         <span class="triangle">▼</span>
                         </a>
                         <a class="transl" href="#">Перевести эту страницу</a>
                     </div>
                     <div class="text">
-                        element, Type <em>selector</em>. Matches an element. p { color: red } /* matches paragraphs */ .class, Class <em>selector</em>. 
-                        Matches the value of a class attribute. .warning ...
+                        element, Type <em>selector</em>. Matches an element. p { color: red } /* matches paragraphs */ 
+                        .class, Class <em>selector</em>. Matches the value of a class attribute. .warning ...
                     </div>
                 </li>
-
                 <li>
                     <div class="site-src">
-                        <a href="#"><h3>The CssSelector Component (Symfony Docs)</h3>https://symfony.com › Documentation › Components
+                        <a href="#"><h2>The CssSelector Component (Symfony Docs)</h2>
+                        https://symfony.com › Documentation › Components
                         <span class="triangle">▼</span>
                         </a>
                         <a class="transl" href="#">Перевести эту страницу</a>
                     </div>
                     <div class="text">
-                        This article explains how to use the <b>CssSelector</b> features as an independent component in any PHP application. 
-                        Read the Symfony Functional Tests article to ...
+                        This article explains how to use the <b>CssSelector</b> features as an independent 
+                        component in any PHP application. Read the Symfony Functional Tests article to ...
                     </div>
                     <div class="text">
                         <table class="table-src">
-                            <tr><td>6 дек. - 8 дек.</td><td><a href="#" class="transl">SymfonyCon Lisbon 2018</a></td><td>Lisbon, PT</td></tr>
-                            <tr><td>28 мар. 2019 г. - 29 мар. 2019 г.</td><td><a href="#" class="transl">SymfonyLive Paris ...</a></td><td>Paris, FR</td></tr>
+                            <tr>
+                                <td>6 дек. - 8 дек.</td>
+                                <td><a href="#" class="transl">SymfonyCon Lisbon 2018</a></td>
+                                <td>Lisbon, PT</td>
+                            </tr>
+                            <tr>
+                                <td>28 мар. 2019 г. - 29 мар. 2019 г.</td>
+                                <td><a href="#" class="transl">SymfonyLive Paris ...</a></td>
+                                <td>Paris, FR</td>
+                            </tr>
                         </table>
                     </div>
                 </li>                
-
                 <li>
                     <div class="site-src">
-                        <a href="#"><h3>A CSS Selector Reference ← Alligator.io</h3>https://alligator.io/css/css-selectors/
+                        <a href="#"><h2>A CSS Selector Reference ← Alligator.io</h2>
+                        https://alligator.io/css/css-selectors/
                         <span class="triangle">▼</span>
                         </a>
                         <a class="transl" href="#">Перевести эту страницу</a>
                     </div>
                     <div class="text">
-                        Can't remember which selector to use? Here's an easy reference of all the <b>CSS selectors</b>, including those from 
-                        <b>CSS Selectors</b> Level 3 (CSS3).
+                        Can't remember which selector to use? Here's an easy reference of all the <b>CSS selectors</b>, 
+                        including those from <b>CSS Selectors</b> Level 3 (CSS3).
                     </div>
-                </li>
-                
+                </li>    
                 <li>
                     <div class="site-src">
-                        <a href="#"><h3>H2 CSS selector - HTML-CSS - The freeCodeCamp Forum</h3>
+                        <a href="#"><h2>H2 CSS selector - HTML-CSS - The freeCodeCamp Forum</h2>
                         https://www.freecodecamp.org/forum/t/...css-selector/204572
                         <span class="triangle">▼</span>
                         </a>
                         <a class="transl" href="#">Перевести эту страницу</a>
                     </div>
                     <div class="text">
-                        28 июн. 2018 г. - Tell us what's happening: It keeps saying I haven't used an h2 <b>CSS selector</b> to change the font. 
-                        I thought I had and it looks like I have in the ...
+                        28 июн. 2018 г. - Tell us what's happening: It keeps saying I haven't used an h2 <b>CSS selector</b> 
+                        to change the font. I thought I had and it looks like I have in the ...
                     </div>
-                </li>  
-                
+                </li>       
                 <li>
                     <div class="site-src">
-                        <a href="#"><h3>Selectors Level 3</h3>
+                        <a href="#"><h2>Selectors Level 3</h2>
                         https://www.w3.org/TR/2018/PR-selectors-3-20180911/
                         <span class="triangle">▼</span>
                         </a>
                         <a class="transl" href="#">Перевести эту страницу</a>
                     </div>
                     <div class="text">
-                        Перейти к разделу <a href="#" class="transl">Application in CSS</a> - In <b>CSS</b>, the ::first-letter pseudo-element applies to ... After the rule p::before
+                        Перейти к разделу <a href="#" class="transl">Application in CSS</a> - In <b>CSS</b>
+                        , the ::first-letter pseudo-element applies to ... After the rule p::before
                         {content: "Note: "} , the <b>selector</b> ...
                     </div>
                 </li>             
@@ -209,7 +205,7 @@
     </main>
 
     <section>
-        <h3 class="like-src">Вместе с css selector часто ищут</h3>
+        <h2 class="like-src">Вместе с css selector часто ищут</h2>
         <div class="col-src">
             <p><a href="#">css selector <b>plus</b></a></p>
             <p><a href="#">css selector <b>selenium</b></a></p>
@@ -220,8 +216,8 @@
             <p><a href="#"><b>js селекторы</b></a></p>
             <p><a href="#"><b>mdn</b> css <b>selectors</b></a></p>
         </div>
-        
-        <table class="nav-list-table">
+        <nav>
+            <table class="nav-list-table">
                 <tr>
                     <td class="nav-list-first-col">
                         <span class="nav-list-first"></span>
@@ -281,7 +277,8 @@
                         </a>
                     </td>
                 </tr>
-        </table>   
+            </table> 
+        </nav>  
     </section>
 
     <footer>

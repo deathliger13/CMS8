@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fefefe;
+  width: 1580px;
+  position: absolute;
+}
+
+.logo {
+  width: 210px;
+  height: 27px;
+  position: relative;
+  top: -10px;
+  left: 322px;
+}
+
+.vector {
+  width: 249px;
+  height: 48px;
+  position: relative;
+  top: 2px;
+  left: 800px;
+}
+
+.backGround {
+  background-color: #a7dbd3;
+  width: 1580px;
+  height: 728px;
+}
+.border {
+  background-color: #008375;
+  height: 3px;
+
+}
+
+.Object {
+  width: 894px;
+  height: 689px;
+  position: relative;
+  top: 39px;
+  left: 345px;
+}
+
+h1 {
+  font-size: 30px;
+  position: relative;
+  right: 10px;
+}
+
+.text {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #5a5555;
+  position: relative;
+  left: 300px;
+  top: 5px;
+
+}
+
+.backGround-2 {
+  background-color: #008375;
+  width: 1580px;
+  height: 500px;
+  position: relative;
+  display: inline-block;
+}
+
+form {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}
+
+h2 {
+
+  color: #a7dbd3;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 45px;
+  line-height: 48px;
+  position: absolute;
+  left: 300px;
+  top: 20px;
+}
+
+.namber {
+  position: absolute;
+  right: 300px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 35px;
+  color: #a7dbd3;
+  top: 30px;
+}
+
+.namber-one {
+  position: absolute;
+  left: 300px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 20px;
+  color: #f1f1f1;;
+  top: 85px;
+}
+
+.send0 {
+  width: 226px;
+  height: 40px;
+  margin: 4px;
+}
+
+.send1 {
+  width: 226px;
+  height: 40px;
+  margin: 4px;
+}
+
+.send2 {
+  width: 450px;
+  height: 40px;
+  margin: 4px;
+}
+
+.send3 {
+  width: 483px;
+  height: 40px;
+  margin: 4px;
+}
+
+.send4 {
+  width: 450px;
+  height: 40px;
+  margin: 4px;
+}
+
+.send5 {
+  width: 483px;
+  height: 40px;
+  margin: 4px;
+}
+
+.send6 {
+  width: 210px;
+  height: 40px;
+  margin: 4px;
+}
+
+.send7 {
+  width: 210px;
+  height: 40px;
+  margin: 4px;
+}
+
+.send8 {
+  width: 484px;
+  height: 40px;
+  margin: 4px;
+}
+
+.send9 {
+  width: 141px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  left: 334px;
+  color: #ffffff;
+  background-color: #68c2b6;
+}
+
+input {
+  padding-left: 15px;
+}
+
+.backGround-3 {
+
+  background-color: #a7dbd3;
+  width: 1580px;
+  height: 480px;
+
+
+}
+
+.backGround-4 {
+  background-color: #d0ebe7;
+  width: 1580px;
+  height: 480px;
+
+
+}
+
+.text-1 {
+  font-family: "Gotham", Arial, sans-serif;
+  font-size: 30px;
+  position: relative;
+  left: 340px;
+  top: 20px;
+  color: #575756;
+
+}
+
+h3 {
+  font-family: "Gotham", Arial, sans-serif;
+  font-size: 45px;
+  line-height: 48px;
+  position: relative;
+  left: 300px;
+  top: 20px;
+  color: #575756;
+}
+
+h4 {
+  font-family: "Gotham", Arial, sans-serif;
+  font-size: 45px;
+  position: relative;
+  left: 480px;
+  top: 20px;
+  color: #575756;
+}
+
+.text-2 {
+  font-family: "Gotham", Arial, sans-serif;
+  font-size: 28px;
+  position: relative;
+  left: 820px;
+  top: 20px;
+  color: #575756;
+}
+
+.breeze {
+  width: 944px;
+  height: 129px;
+  position: relative;
+  top: 39px;
+  left: 345px;
+}
+
+.order {
+  width: 161px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  left: 300px;
+  background-color: #007f6c;
+  font-family: "Gotham", Arial, sans-serif;
+  color: #ffffff;
+}
+
+.text-3 {
+  font-family: "Gotham", Arial, sans-serif;
+  font-size: 45px;
+  position: relative;
+  left: 480px;
+  top: 20px;
+  color: #575756;
+}
+
+.text-4 {
+  font-family: "Gotham", Arial, sans-serif;
+  font-size: 24px;
+  position: relative;
+  left: 300px;
+  top: 50px;
+  color: #575756;
+  text-decoration: underline;
+}
+
+.text-5 {
+  font-family: "Gotham", Arial, sans-serif;
+  font-size: 24px;
+  position: relative;
+  left: 670px;
+  top: 20px;
+  color: #575756;
+  text-decoration: underline;
+}
+
+.text-6 {
+  font-family: "Gotham", Arial, sans-serif;
+  font-size: 24px;
+  position: relative;
+  left: 1088px;
+  top: -5px;
+  color: #515151;
+  text-decoration: underline;
+}
+
+.banner-1 {
+  position: relative;
+  top: 39px;
+  left: 300px;
+  width: 205px;
+  height: 255px;
+}
+
+.banner-2 {
+  position: relative;
+  top: 39px;
+  left: 460px;
+  width: 260px;
+  height: 201px;
+}
+
+.banner-3 {
+  position: relative;
+  top: 39px;
+  left: 590px;
+  width: 224px;
+  height: 255px;
+}
+
+.backGround-5 {
+  background-color: #515151;
+  width: 1580px;
+  height: 269px;
+  display: inline-block;
+}
+
+.text-7 {
+  color: #ffffff;
+  position: relative;
+  left: 260px;
+  font-family: "Gotham", Arial, sans-serif;
+  font-size: 18px;
+  top: 30px;
+}

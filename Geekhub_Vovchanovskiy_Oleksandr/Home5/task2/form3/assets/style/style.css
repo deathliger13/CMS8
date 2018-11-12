@@ -1,0 +1,66 @@
+.form {
+  margin: 25px;
+  width: 341px;
+  box-shadow: inset 0 0 20px rgba(192, 192, 192, 0.23);
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #3f3f3f 0%, #3f3f3f 8%, #727272 24%, #ffffff 100%);
+}
+
+.email-header {
+  height: 47px;
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(to top, #4a1d81 0%, #7832ce 12%, #8426e4 30%, #8017c2 53%, #bb32ee 92%, #dc78ff 100%);
+  text-align: center;
+}
+
+.email-header h2 {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 0;
+  text-shadow: 1px 1px 1px rgba(76, 11, 142, 0.75);
+  color: #fff;
+  font: 600 22px "URW Gothic L", sans-serif;
+  font-style: oblique;
+  vertical-align: center;
+}
+
+.email-field {
+  width: 293px;
+  height: 34px;
+  margin: 32px 27px 39px 21px;
+  box-shadow: inset 0 1px #000;
+  background: url("../img/mail.png") no-repeat 6px 7px #b5b5b5;
+  border-radius: 5px 5px 2px 2px;
+  text-align: center;
+}
+
+input[name="email"] {
+  width: 160px;
+  height: 20px;
+  margin: 5px 0 5px 45px;
+  background: transparent;
+  font: 400 16px "Arial", sans-serif;
+  border: none;
+  outline: none;
+}
+
+input[name="email"]::placeholder {
+  font: 600 14px "URW Gothic L", sans-serif;
+  color: #6F6F6F;
+  text-shadow: 1px 1px 0 #d9d9d9;
+}
+
+input[type="submit"] {
+  float: right;
+  width: 71px;
+  height: 26px;
+  margin: 5px;
+  background-image: linear-gradient(to top, #000000 0%, #333333 100%);
+  font-size: 12px;
+  color: #c0c0c0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}

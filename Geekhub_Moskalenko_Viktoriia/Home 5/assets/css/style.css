@@ -1,0 +1,292 @@
+
+body {
+  background: #ffffff;
+}
+
+.fonblue {
+  background: #a7dbd3;
+  width: 1518px;
+  height: 700px;
+  margin-top: -28px;
+}
+
+.dog {
+  position: relative;
+  top: -665px;
+  left: 300px;
+}
+
+.pentron {
+  margin-left: 145px;
+  margin-bottom: 95px;
+  margin-top: -25px;
+}
+
+.breeze {
+  margin-left: 750px;
+  margin-bottom: 95px;
+  margin-top: -25px;
+}
+
+.rozd {
+  background-color: #008375;
+  height: 2px;
+  margin-top: -140px;
+}
+
+h1 {
+  font-family: «Akzidenz Grotesk BE», Arial, sans-serif;
+  color: #5a5555;
+  position: absolute;
+  left: 26%;
+  top: 800px;
+}
+
+p {
+  font-family: «Akzidenz Grotesk BE», Arial, sans-serif;
+  color: #5a5555;
+  position: absolute;
+  left: 26%;
+  top: 915px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form1 {
+  background: #008375;
+  width: 1518px;
+  height: 540px;
+  margin-top: -420px;
+}
+
+h2 {
+  color: #a7dbd3;
+  position: absolute;
+  left: 20%;
+  bottom: -450px;
+  font-size: 40px;
+
+}
+
+.phone {
+  color: #a7dbd3;
+  position: absolute;
+  left: 65%;
+  top: 151%;
+  font-size: 30px;
+
+}
+
+.text2 {
+  color: #f1f1f1;
+  position: absolute;
+  left: 20%;
+  top: 155%;
+  font-size: 22px;
+
+}
+
+form {
+  margin-top: -320px;
+  margin-left: 300px;
+
+}
+
+.a1a {
+  width: 216px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.a2a {
+  width: 216px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.a3a {
+  width: 445px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.a4a {
+  width: 440px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.a5a {
+  width: 445px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.a6a {
+  width: 440px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.a7a {
+  width: 216px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.a8a {
+  width: 221px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.a9a {
+  width: 440px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.submit {
+  position: relative;
+  top: -20px;
+  left: 1047px;
+}
+
+.fon3 {
+  background: #a7dbd3;
+  width: 1518px;
+  height: 490px;
+}
+
+.rmgi {
+  width: 700px;
+  height: 90px;
+  position: relative;
+  bottom: 310px;
+  left: 400px;
+}
+
+.b1 {
+  color: #575756;
+  font-family: «Akzidenz Grotesk BE», Arial, sans-serif;;
+  font-size: 25px;
+  top: 230%;
+  left: 475px;
+}
+
+.b2 {
+  color: #575756;
+  font-family: «Akzidenz Grotesk BE», Arial, sans-serif;;
+  font-size: 33px;
+  top: 235%;
+  left: 430px;
+}
+
+.b3 {
+  color: #575756;
+  font-family: «Akzidenz Grotesk BE», Arial, sans-serif;;
+  font-size: 33px;
+  top: 251%;
+  left: 465px;
+}
+
+.b4 {
+  color: #575756;
+  font-family: «Akzidenz Grotesk BE», Arial, sans-serif;
+  font-size: 25px;
+  top: 260%;
+  left: 660px;
+}
+
+.now {
+  position: relative;
+  top: -200px;
+  left: 410px;
+  width: 150px;
+  height: 50px;
+}
+
+.fon4 {
+  background: #d0ebe7;
+  height: 500px;
+  width: 1517px;
+  margin-top: -153px;
+}
+
+.text3 {
+  color: #575756;
+  font-family: «Akzidenz Grotesk BE», Arial, sans-serif;
+  font-size: 33px;
+  top: 290%;
+  left: 480px;
+}
+
+.book1 {
+  width: 196px;
+  height: 220px;
+  position: relative;
+  top: -365px;
+  left: 280px;
+}
+
+.book2 {
+  width: 270px;
+  height: 185px;
+  position: relative;
+  top: -365px;
+  left: 370px;
+}
+
+.book3 {
+  width: 196px;
+  height: 220px;
+  position: relative;
+  top: -365px;
+  left: 460px;
+}
+
+.fon5 {
+  background: #515151;
+  height: 250px;
+  width: 1517px;
+  margin-top: -400px;
+}
+
+.end {
+  color: #FFFFFF;
+  font-family: «Akzidenz Grotesk BE», Arial, sans-serif;;
+  font-size: 15px;
+  top: 365%;
+  left: 200px;
+
+}
+
+.aa {
+  position: absolute;
+  color: #515151;
+  font-family: Gotham;
+  font-size: 15px;
+  text-decoration: underline;
+  top: 2400px;
+  left: 290px;
+}
+
+.bb {
+  position: absolute;
+  color: #515151;
+  font-family: Gotham;
+  font-size: 15px;
+  text-decoration: underline;
+  top: 2400px;
+  left: 630px;
+}
+
+.cc {
+  position: absolute;
+  color: #515151;
+  font-family: Gotham;
+  font-size: 15px;
+  text-decoration: underline;
+  top: 2400px;
+  left: 970px;
+}

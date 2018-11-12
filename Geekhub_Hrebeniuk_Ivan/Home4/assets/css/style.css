@@ -13,6 +13,8 @@ header {
   height: 103px;
 }
 #logo {
+  width: 120px;
+  height: 44px;
   padding-right: 15px;
   padding-top: 5px;
 }
@@ -20,17 +22,12 @@ header {
   width: 490px;
   height: 43px;
   position: absolute;
-  outline: none; border: none;
+  outline: none;
   border-radius: 2px;
   padding-left: 18px;
   font-size: 16px;
   border: 1px solid #E6E6E6;
   box-shadow: 0.5px 1px 0 rgb(170,170,170);
-}
-line-search:hover {
-  box-shadow: 0.5px 1px 0 rgb(170,170,170);
-  border: 1px solid #E6E6E6;
-  border-radius: 2px;
 }
 #line-search:hover #search{
   box-shadow: -0.3px 2.9px 0 rgb(200,200,200);
@@ -45,88 +42,75 @@ line-search:hover {
   background-color: #fff;
   position: absolute;
   border: 1px solid #E6E6E6;
-  border-left: 0px;
+  border-left: 0;
   border-radius: 2px;
   box-shadow: 0.5px 1px 0 rgb(170,170,170);
 }
 #submit-query {
-  background: url(./assets/img/glass.png);
-  border: 0px;
+  border: 0;
 }
 #img-submit {
   position: absolute;
   top: 13px;
 }
-#keayboard-search-tool {
-  margin-top: 17px;
-  margin-bottom: 17px;
-  margin-left: 27px;
-  margin-right: 20px;
+#keyboard-search-tool {
+  margin: 17px 20px 17px 27px;
 }
 .other-search-tool{
-  margin-right: 15px;
-  margin-top: 10px;
-  margin-bottom: 14px;
+  margin: 10px 15px 14px auto;
 }
-.other-search-tool:hover, #keayboard-search-tool:hover {
+.other-search-tool:hover, #keyboard-search-tool:hover {
   cursor: pointer
 }
 nav{
-  margin-left: 125px;
-  margin-top: 18px;
+  margin: 18px auto auto 125px;
 }
 nav a {
   color: #777777;
   text-decoration: none;
   margin-left: 28px;
   font-size: 13px;
-
 }
 nav a:hover {
   color: black;
 }
-#active_choice_all{
+#active-choice-all{
   font-weight: bold;
   color: #1A73E8;
   padding: 0 16px 12px;
-  margin-left: 10px;
-  margin-right: -12px;
+  margin: auto -12px auto 10px;
   border-bottom: 3px solid #1A73E8;
 }
 #apps {
-  margin-left: 1055px;
   position: absolute;
   width: 18px;
   height: 18px;
-  margin-top: 15px;
+  margin: 15px auto auto 1055px;
   cursor: pointer
 }
 #task {
-  margin-left: 1100px;
   position: absolute;
   width: 24px;
   height: 24px;
-  margin-top: 12px;
-  cursor: pointer
+  cursor: pointer;
+  margin: 12px auto auto 1100px;
 }
 #person {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  margin-left: 1140px;
   position: absolute;
-  margin-top: 8px;
-  cursor: pointer
+  cursor: pointer;
+  margin: 8px auto auto 1140px;
 }
 main {
-  margin-left: 167px;
   width: 600px;
+  margin-left: 167px;
 }
 #amount-result {
   font-size: small;
   color: #808080;
-  margin-top: 16px;
-  margin-bottom: 30px;
+  margin: 16px auto 30px auto;
 }
 .link-result {
   margin-bottom: 30px;
@@ -165,8 +149,7 @@ main {
 #addition {
   color: #222;
   font-size: 18px;
-  margin-top: 45px;
-  margin-bottom: 30px;
+  margin: 45px auto 30px auto;
 }
 .additional-choice {
   list-style-type:none;
@@ -180,12 +163,10 @@ main {
   font-weight: bold;
 }
 .additional-choice-two {
-  margin-top: -104px;
-  margin-left: 190px;
+  margin: -104px auto auto 190px;
 }
 #pagination {
-  margin-top: 25px;
-  margin-left: 125px;
+  margin: 25px auto auto 125px;
 }
 #pagination-link {
   margin-left: 157px;
@@ -216,8 +197,7 @@ footer {
 }
 .separator {
   border-right: solid #E4E4E4 1px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: auto 15px auto 15px;
 }
 .row-separator {
   margin: 10px;
@@ -241,8 +221,8 @@ ul #place {
   font-weight: bold;
   font-size: 14px;
 }
-#googe-help {
-  margin-left: 0px;
+#google-help {
+  margin-left: 0;
 }
 .google-about li{
   margin-left: 30px;

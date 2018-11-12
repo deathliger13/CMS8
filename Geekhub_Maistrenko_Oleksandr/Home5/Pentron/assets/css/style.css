@@ -1,0 +1,178 @@
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 12px;
+  background-color: #fefefe;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo-section {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid #008375;
+}
+.pentron-logo {
+  height: 27px;
+  float: left;
+  overflow: hidden;
+}
+.breeze-logo {
+  float: right;
+}
+.breeze-logo img {
+  height: 27px;
+}
+.dog-section {
+  background-color: #a4dbd3;
+}
+.main-background {
+  height: 700px;
+  background: url("../img/main-bgrnd.png") 50% 100% no-repeat;
+}
+.meet-breeze {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #5a5555;
+}
+.meet-breeze h2 {
+  font-size: 45px;
+}
+.meet-breeze .container{
+  width: 1020px;
+}
+.request-section {
+  padding-bottom: 60px;
+  color: #f1f1f1;
+  background-color: #008375;
+}
+.request-section .container {
+  width: 925px;
+}
+.request-section .container>div {
+  padding-top: 80px;
+  overflow: hidden;
+}
+.request-section h2, .request-section span {
+  font-weight: 700;
+  color: #a4dbd3;
+}
+.request-section h2 {
+  margin-top: -20px;
+  margin-bottom: 15px;
+  float: left;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.request-section p {
+  font-size: 16px;
+}
+.request-section span {
+  float: right;
+  font-size: 25px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 49%;
+  height: 55px;
+  padding: 20px;
+  margin-bottom: 15px;
+  color: #73b9b2;
+  font-size: 16px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 150px;
+  height: 60px;
+  margin-top: 15px;
+  border: none;
+  float: right;
+  font-size: 23px;
+  color: #fff;
+  background-color: #62c2b6;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+.double-field {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+}
+input.half-size {
+  width: 48%;
+}
+.order-section {
+  padding: 30px 0;
+  color: #575756;
+  background-color: #a4dbd3;
+}
+.order-section .container {
+  width: 980px;
+  overflow: visible;
+}
+.order-section h2 {
+  display: none;
+}
+.order-section p {
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+}
+p.main-features {
+  margin: 0;
+  font-size: 50px;
+  text-align: center;
+}
+.left-align {
+  margin-left: 100px;
+}
+.right-align {
+  margin-right: 20px;
+  text-align: right;
+}
+.order-btn {
+  padding: 10px 25px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #007f6c;
+}
+.download-section {
+  font-size: 20px;
+  color: #777373;
+  text-align: center;
+  background-color: #ceebe7;
+}
+.download-items {
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+.download-items a {
+  color: #777373;
+}
+figcaption {
+  margin: 25px 0;
+}
+footer {
+  padding: 25px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #eef1f1;
+  background-color: #515151;
+}
+footer p {
+  margin-bottom: 50px;
+}

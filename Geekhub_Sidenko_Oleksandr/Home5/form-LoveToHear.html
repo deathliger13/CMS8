@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style-forms-LoveToHear.css">
+    <title>Forms</title>
+</head>
+<body>
+    <form class="form-hear" action="#" method="get">
+        <h1>We love to hear from you!</h1>
+        <ul>
+            <li>
+                <label for="name">Your Name:</label>
+                <input id="name" type="text"  name="name">
+            </li>
+            <li>
+                <label for="email">Your Email Address:</label>
+                <input id="email" type="email" name="email" required>
+            </li>
+            <li>
+                <label for="service">Select Service</label>
+                <select id="service" name="service">
+                    <option value="Industry">Select Industry</option>
+                    <option value="other">Select other</option>
+                </select>
+            </li>
+            <li>
+                <p>We value your privacy. We do not share or rent your
+                    contact details.</p>
+            </li>
+            <li>
+                <label for="comment">Your Comment Here:</label>
+                <textarea id="comment" name="comment"></textarea>
+            </li>
+            <li>
+                <input id="submit" type="submit" name="submit" value="Submit">
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

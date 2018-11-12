@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style-forms-comments.css">
+    <title>Forms</title>
+</head>
+<body>
+    <form class="form-comment" action="#" method="get">
+        <h1>Leave your comment here</h1>
+        <ul>
+            <li>
+                <label for="name">Your Name:</label>
+                <input id="name" type="text"  name="name">
+            </li>
+            <li>
+                <label for="email">Your Email (Required):</label>
+                <input id="email" type="email" name="email" required>
+            </li>
+            <li>
+                <label for="web-site">Your Website:</label>
+                <input id="web-site" type="text" name="web-site" placeholder="http://">
+            </li>
+            <li>
+                <label for="spam">Notify me follow-up comments via email.</label>
+                <input id="spam" type="checkbox" name="spam" checked>
+            </li>
+            <li>
+                <label for="comment">Your Comment Here:</label>
+                <textarea id="comment" name="comment"></textarea>
+            </li>
+            <li>
+                <input id="submit" type="submit" name="submit" value="Submit">
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

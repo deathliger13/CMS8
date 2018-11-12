@@ -1,10 +1,11 @@
-body {
+body, h1 {
   margin: 0;
   padding: 0;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
 }
 
 .container {
+  width: 100%;
   margin: 0 auto;
   min-width: 960px;
 }
@@ -13,7 +14,7 @@ header, footer, input[name="q"] {
   background-color: #fafafa;
 }
 
-header, footer, .ftr {
+header, .ftr {
   border-bottom: 1px solid #ebebeb;
 }
 
@@ -22,65 +23,54 @@ header, footer, .ftr {
   position: absolute;
 }
 
+.logo img {
+  width: 120px;
+  height: 44px;
+}
+
 .search {
   position: absolute;
-  padding: 0 10px 0 16px;
   margin-left: 149px;
   margin-top: 19px;
-  min-width: 606px; 
+  min-width: 632px; 
   height: 44px;
-  border: 1px solid #DCDCDC;
+  border: 1px solid #dcdcdc;
   border-radius: 3px;
-  box-shadow: 0 2px 2px -0.8px #C0C0C0;
+  box-shadow: 0 2px 2px -0.8px #c0c0c0;
   background-color: #fff;
 }
 
-.input-buttons, .user-app {
+.user-app {
   float: right;
 }
 
 input[name="q"] {
-  margin-top: 12px;
-  width: 500px;
+  margin: 10px 16px; 
+  width: 470px;
   font-size: 16px;
-  border: none;
+  border: none; 
   outline: none;
   background-color: #fff;
 }
 
-input[name="keyboard"] {
-  background: url("../img/tia.png") no-repeat 100% 50%;
-  height: 23px;
-  width: 19px;
-  border: none;
-  cursor: pointer;
-  outline: none;
-}
-
-input[name="voice"]{
-  background: url("../img/voice.png") no-repeat 100% 100%;
-  background-size: 24px 24px;
-  height: 23px;
-  width: 19px;
-  margin: 11px 5px 10px 18px;
-  border: none;
-  cursor: pointer;
-  outline: none;
-}
-
-.btn-src {
-  background: transparent;
-  border: none;
-}
-
-.src-icon {
-  fill: currentColor;
-  width: 24px;
+input[name="keyboard"], input[name="voice"], input[type="submit"] {
+  background: url("../img/tia.png") no-repeat center;
+  margin: 10px 6px;
   height: 24px;
-  line-height: 24px;
-  position: relative;
+  width: 24px;
+  border: none;
   cursor: pointer;
-  color: #4285f4;
+  outline: none;
+  text-indent: -1000em;
+}
+
+input[name="voice"] {
+  background: url("../img/voice.png") no-repeat center;
+  background-size: 100%;
+}
+
+input[type="submit"] {
+  background: url("../img/search.png") no-repeat center; 
 }
 
 .user-app {
@@ -91,7 +81,7 @@ input[name="voice"]{
 }
 
 .user-app-ul {
-  margin: 0px -15px;
+  margin: 0 -15px;
 }
 
 .user-photo {
@@ -99,7 +89,7 @@ input[name="voice"]{
   width: 30px;
 }
 
-.user-app ul  li{
+.user-app ul  li {
   padding: 8px;
 }
 
@@ -108,29 +98,30 @@ input[name="voice"]{
 }
 
 ul {
-  margin: 0 4px;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.main-menu, .col-src, .src-icon, .known_loc, nav li {
+.main-menu, .col-src, .known_loc, nav li {
   display: inline-block;
 }
 
 .main-menu {
-  margin-top: 11px;
-  margin-left: 150px;
+  margin-top: 10px;
+  margin-left: 140px;
   font-size: 13px;
 }
 
-.main-menu ul li {
-  padding: 3px;
-  margin: 11px;
+.main-menu .menu-set li {
+  padding: 15px 13px;
 }
 
-hr {
-  margin: 1px;
-  border: 0.3px solid #e4e4e4;
+.menu-set li:first-child a {
+  padding: 0 15px 12px;
+  border-bottom: 3px solid #1a73e8;
+  color: #1a73e8;
+  font-weight: bold;
 }
 
 .results {
@@ -151,11 +142,11 @@ main {
   width: 620px;
 }
 
-.site-src .transl, .col-src p a, h3, a {
+.site-src .transl, .col-src p a, h2, a {
   color: #1a0dab;
 }
 
-.results-list h3:hover, .site-links a:hover , .transl:hover, .col-src p a:hover, .nav-list-table .nav-list-num:hover{
+.results-list h2:hover, .site-links a:hover , .transl:hover, .col-src p a:hover, .nav-list-table .nav-list-num:hover {
   text-decoration: underline;
 }
 
@@ -163,7 +154,7 @@ main {
   margin-bottom: 30px;
 }
 
-.site-src  {
+.site-src {
   line-height: 1.2;
   font-size: 14px;
 }
@@ -172,11 +163,11 @@ main {
   font-size: 13px;
 }
 
-.site-src  a{
+.site-src  a {
   color: #006621; 
 }
 
-h3 {
+h2 {
   padding: 0 0 2px;
   margin: 0;
   font-size: 18px;
@@ -225,6 +216,7 @@ footer {
   width: 100%;
   font-size: 13px;
   color: #808080;
+  border-top: 1px solid #ebebeb;
 }
 
 footer .container {
@@ -283,7 +275,7 @@ p {
 }
 
 .nav-list-table td {
-    text-align: center;
+  text-align: center;
 }
 
 .nav-list-table .nav-list-first {
@@ -324,7 +316,3 @@ p {
  font-size: 13px;
  color: #4285f4;
 }
-
-
-
-

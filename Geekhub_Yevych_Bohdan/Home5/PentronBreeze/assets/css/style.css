@@ -1,0 +1,292 @@
+/* Basic */
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+  padding: 14px 0 18px 0;
+  background-color: #fefefe;
+  border-bottom: 4px solid #008375;
+}
+
+.logo {
+  float: left;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.add-logo {
+  float: right;
+}
+
+/* Banner */
+
+.banner {
+  padding-top: 40px;
+  background-color: #a7dbd3;
+}
+
+.align-img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Main */
+
+.main {
+  padding: 50px 0;
+  background-color: #fefefe;
+}
+
+.main h2 {
+  color: #5a5555;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: -1.03px;
+  line-height: 56px;
+}
+
+.main h3 {
+  margin-top: 50px;
+  font-family: 'Monserrat', sans-serif;
+  color: #5a5555;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: -0.92px;
+}
+
+/* Feedback */
+
+.feedback {
+  padding: 64px 0;
+  background-color: #008375;
+}
+
+.feedback h2 {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  color: #a7dbd3;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.tel {
+  display: inline-block;
+  float: right;
+}
+
+.tel a {
+  color: #a7dbd3;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 44px;
+  text-decoration: none;
+}
+
+.feedback .feedback-subtitle {
+  margin: 40px 0 20px;
+  color: #f1f1f1;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/* Form */
+
+label {
+  display: none;
+}
+
+.left-col {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+}
+
+.right-col {
+  display: inline-block;
+  width: 50%;
+  float:right;
+  padding-left: 10px;
+}
+
+.left-field {
+  float: left;
+  width: 50%;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.right-field {
+  float: right;
+  width: 50%;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+input {
+  width: 100%;
+  background-color: #e3f3ef;
+  border: none;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 10px 0;
+  padding: 10px 21px;
+}
+
+.btn {
+  float: right;
+  margin: 10px 0;
+}
+
+.btn button {
+  width: 150px;
+  height: 61px;
+  border: none;
+  background-color: #68c2b6;
+  color: #ffffff;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 34px;
+  cursor: pointer;
+}
+
+/* Order */
+
+.order {
+  padding: 80px 0 40px;
+  background-color: #a7dbd3;
+}
+
+.order p {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #575756;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.order h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #575756;
+  font-size: 57px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 5px 0 10px;
+}
+
+.order img {
+  width: 100%;
+}
+
+.order-title {
+  text-align: center;
+}
+
+.subtitle-tolerant {
+  margin-bottom: 60px;
+}
+
+.subtitle-release {
+  text-align: right;
+  margin: 60px 0;
+}
+
+.btn-order {
+  width: 187px;
+  height: 61px;
+  background-color: #007f6c;
+  border: none;
+  color: #ffffff;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 34px;
+  cursor: pointer;
+}
+
+/* Download */
+
+.download {
+  padding: 40px 0 60px;
+  background-color: rgba(167, 219, 211, 0.53);
+}
+
+.download h2 {
+  margin: 0 0 70px;
+  color: #777373;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.download-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.download-items p {
+  text-align: center;
+  color: #515151;
+  font-family: 'Monserrat', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 63px;
+  text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+  padding: 50px 0;
+  background-color: #515151;
+}
+
+footer p, footer a {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #eef1f1;
+  line-height: 27px;
+  text-decoration: none;
+}

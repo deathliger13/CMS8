@@ -1,0 +1,449 @@
+.all-page {
+  width: 1815px;
+  height: 3100px;
+  background-color: #fefefe;
+}
+
+.head {
+  width: 1815px;
+  height: 77px;
+  background-color: #fefefe;
+  border-bottom: 4px solid #008375;
+
+}
+
+.logo {
+  width: 226px;
+  height: 27px;
+  display: block;
+  margin-left: 322px;
+  margin-top: 26px;
+}
+
+.logo2 {
+  width: 249px;
+  height: 48px;
+  display: block;
+  margin-left: 1185px;
+  margin-top: -40px;
+}
+
+.head2 {
+  width: 1815px;
+  height: 701px;
+  background-color: #a7dbd3;
+  display: block;
+}
+
+.massive-logo {
+  margin: 39px 484px 27px 437px;
+}
+
+.p1 {
+  width: 950px;
+  height: 85px;
+  color: #5a5555;
+  font: 44px "Akzidenz Grotesk BE";
+  font-weight: 700;
+  letter-spacing: -1.03px;
+  line-height: 56px;
+  display: block;
+  margin-left: 364px;
+  margin-bottom: 49px;
+}
+
+.p2 {
+  width: 1011px;
+  height: 121px;
+  color: #5a5555;
+  font: 33px "Akzidenz Grotesk BE - Md";
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: -0.92px;
+  display: block;
+  margin-left: 364px;
+  margin-bottom: 49px;
+}
+
+form {
+  width: 1815px;
+  height: 571px;
+  background-color: #008375;
+  display: block;
+}
+
+.header-form {
+  width: 424px;
+  height: 36px;
+  color: #a7dbd3;
+  font: 45px "Akzidenz Grotesk BE";
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  display: block;
+  padding-top: 50px;
+  margin-left: 421px;
+}
+
+.number {
+  width: 230px;
+  height: 22px;
+  color: #a7dbd3;
+  font: 29px Gotham;
+  font-weight: 700;
+  line-height: 43px;
+  display: block;
+  margin-left: 1170px;
+  margin-top: -80px;
+}
+
+.p3 {
+  width: 688px;
+  height: 49px;
+  color: #f1f1f1;
+  font: 23px "Arial - Bold MT";
+  font-weight: 400;
+  line-height: 27px;
+  display: block;
+  margin-top: 40px;
+  margin-left: 421px;
+}
+
+.First-Name {
+  background-color: #e3f3ef;
+  width: 220px;
+  height: 60px;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  margin-left: 420px;
+}
+
+.Last-Name {
+  background-color: #e3f3ef;
+  width: 220px;
+  height: 60px;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  margin-left: 660px;
+  margin-top: -65px;
+}
+
+.Email {
+  width: 460px;
+  height: 60px;
+  background-color: #e3f3ef;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  margin-left: 900px;
+  margin-top: -66px;
+}
+
+.Practice-Name {
+  width: 460px;
+  height: 60px;
+  background-color: #e3f3ef;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  margin-left: 420px;
+  margin-top: 20px;
+}
+
+.Phone-Number {
+  width: 460px;
+  height: 60px;
+  background-color: #e3f3ef;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  margin-left: 900px;
+  margin-top: -66px;
+}
+
+.Street-Address {
+  width: 460px;
+  height: 60px;
+  background-color: #e3f3ef;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  margin-left: 420px;
+  margin-top: 20px;
+}
+
+.State-Province {
+  width: 220px;
+  height: 60px;
+  background-color: #e3f3ef;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  margin-left: 900px;
+  margin-top: -66px;
+}
+
+.Country {
+  width: 220px;
+  height: 60px;
+  background-color: #e3f3ef;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  margin-left: 1140px;
+  margin-top: -66px;
+}
+.cement-used {
+  width: 460px;
+  height: 60px;
+  background-color: #e3f3ef;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  margin-left: 420px;
+  margin-top: 20px;
+}
+
+.submit {
+  width: 150px;
+  height: 61px;
+  background-color: #68c2b6;
+  display: block;
+  margin-left: 1215px;
+  margin-top: -50px;
+}
+
+.submit-name {
+  width: 81px;
+  height: 17px;
+  color: #ffffff;
+  font: 23px Gotham;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0.32px;
+  display: block;
+  margin-left: 1250px;
+  margin-top: -42px;
+  margin-bottom: 59px;
+}
+
+.under-form {
+  width: 1815px;
+  height: 568px;
+  background-color: #a7dbd3;
+  display: block;
+}
+
+.steroids{
+  display: block;
+  margin-left: 400px;
+  padding-top: 200px;
+}
+
+.button {
+  width: 187px;
+  height: 61px;
+  background-color: #007f6c;
+  display: block;
+  margin-top: 50px;
+  margin-left: 400px;
+  color: #007f6c;
+}
+
+.Moisture-tolerant {
+  width: 328px;
+  height: 27px;
+  color: #575756;
+  font: 36px "Akzidenz Grotesk BE - X Bd Cn It";
+  font-weight: 400;
+  line-height: 23.13px;
+  text-transform: uppercase;
+  letter-spacing: 1.38px;
+  white-space: nowrap;
+  font-style: italic;
+  display: block;
+  margin-top: -250px;
+  margin-left: 478px;
+}
+
+.Enhanced-durability-strength {
+  width: 901px;
+  height: 42px;
+  color: #575756;
+  font: 57px "Akzidenz Grotesk BE - X Bd Cn It";
+  font-weight: 400;
+  line-height: 11.97px;
+  text-transform: uppercase;
+  letter-spacing: 4.22px;
+  white-space: nowrap;
+  font-style: italic;
+  display: block;
+  margin-top:  55px;
+  margin-left: 400px;
+}
+
+.Easy-clean-up {
+  width: 711px;
+  height: 43px;
+  color: #575756;
+  font: 58px "Akzidenz Grotesk BE - X Bd Cn It";
+  font-weight: 400;
+  line-height: 11.26px;
+  text-transform: uppercase;
+  letter-spacing: 4.62px;
+  white-space: nowrap;
+  font-style: italic;
+  display: block;
+  margin-top:  140px;
+  margin-left: 470px;
+}
+
+.Continuous-fluoride-release {
+  width: 503px;
+  height: 27px;
+  color: #575756;
+  font: 36px "Akzidenz Grotesk BE - X Bd Cn It";
+  font-weight: 400;
+  line-height: 23.13px;
+  text-transform: uppercase;
+  letter-spacing: 1.38px;
+  white-space: nowrap;
+  font-style: italic;
+  display: block;
+  margin-top:  -50px;
+  margin-left: 800px;
+}
+
+.Order {
+  width: 127px;
+  height: 17px;
+  color: #ffffff;
+  font: 23px Gotham;
+  font-weight: 500;
+  line-height: 33.91px;
+  letter-spacing: 0.32px;
+  display: block;
+  margin-top:  -45px;
+  margin-left: 440px;
+}
+
+.footer1 {
+  width: 1815px;
+  height: 551px;
+  background-color: #a7dbd3;
+  opacity: 0.53;
+  display: block;
+  margin-top: -33px;
+}
+
+.free {
+  width: 488px;
+  height: 26px;
+  color: #777373;
+  font: 33px "Akzidenz Grotesk BE - Md";
+  font-weight: 400;
+  line-height: 24px;
+  display: block;
+  margin-left: 650px;
+  padding-top: 50px;
+}
+
+.layer11 {
+  width: 195px;
+  height: 254px;
+  display: block;
+  margin-top: 70px;
+  margin-left: 400px;
+}
+
+.layer12 {
+  width: 260px;
+  height: 201px;
+  display: block;
+  margin-left: 720px;
+  margin-top: -201px;
+}
+
+.background-layer13 {
+  width: 195px;
+  height: 254px;
+  display: block;
+  margin-left: 1100px;
+  margin-top: -260px;
+}
+
+.layer13 {
+  width: 196px;
+  height: 169px;
+  display: block;
+  margin-left: 1100px;
+  margin-top: -180px;
+}
+
+.Breeze {
+  width: 222px;
+  height: 19px;
+  color: #515151;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 62.96px;
+  text-decoration: underline;
+  display: block;
+  margin-left: 400px;
+}
+
+.Guide {
+  width: 224px;
+  height: 19px;
+  color: #515151;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 62.96px;
+  text-decoration: underline;
+  display: block;
+  margin-left: 760px;
+  margin-top: -40px;
+}
+
+.Instructions {
+  width: 192px;
+  height: 19px;
+  color: #515151;
+  font: 19px Gotham;
+  font-weight: 500;
+  line-height: 62.96px;
+  text-decoration: underline;
+  margin-left: 1120px;
+  margin-top: -40px;
+}
+
+.last-footer {
+  width: 1815px;
+  height: 267px;
+  background-color: #515151;
+  display: block;
+  margin-top: -20px;
+}
+
+.Limited-time {
+  width: 1156px;
+  height: 191px;
+  color: #eef1f1;;
+  font: 18px "Arial MT";
+  font-weight: 400;
+  display: block;
+  padding-top: 50px;
+  margin-left: 322px;
+
+}

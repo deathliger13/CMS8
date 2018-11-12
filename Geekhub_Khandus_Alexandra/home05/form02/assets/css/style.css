@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Trebuchet;
+    src: url("assets/fonts/trebuc.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 601px;
+    height: 421px;
+    background-color: #f9f6e4;
+}
+
+header {
+    width: 601px;
+    height: 43px;
+    padding-left: 35px;
+    padding-top: 12px;
+    background-image: linear-gradient(to top, #854406 0%, #854406 9%, #854406 15%, #ad5604 79%, #b75a03 95%, #ce8842 100%);
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.form-filds {
+    padding: 40px 30px 20px 30px;
+}
+
+.form-footer {
+    padding: 0 30px 45px 30px;
+}
+
+.form-filds, .form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-filds-left input, .form-filds-left select {
+    width: 260px;
+    height: 33px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #909090;
+    background-color: #ffffff;
+    color: #8e8f8f;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 5px;
+}
+
+.form-filds-left input {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #202020;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 260px;
+    height: 189px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #909090;
+    resize: none;
+    padding: 5px;
+    color: #8e8f8f;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.submit {
+    width: 169px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), inset 0 3px 3px 1px rgba(0, 0, 0, 0.15);
+    border: 8px solid #ffffff;
+    background-image: linear-gradient(to top, #d2bdaa 0%, #ffffff 100%);
+    border-radius: 30px;
+    text-shadow: 0 1px 0 #ffffff;
+    color: #a24d00;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-footer p {
+    color: #b8002f;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.parag {
+    width: 246px;
+}
+
+.form-filds-left {
+    position: relative;
+}
+
+/*select {
+    -webkit-user-select: none;
+    -webkit-appearance: button;
+}
+
+select::after {
+    content: '';
+    background: #202020;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

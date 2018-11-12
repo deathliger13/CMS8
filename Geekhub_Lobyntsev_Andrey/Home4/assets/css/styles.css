@@ -1,121 +1,190 @@
 * {
-    font-family: arial;
+  font-family: Arial, Serif, sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
 }
 
 header {
-  background: #FAFAFA;  
-  
+  background: #FAFAFA;
 }
 
 footer{
-    padding-left: 145px;
-    background: #FAFAFA;    
+  padding-left: 145px;
+  background: #FAFAFA;
 }
 
 .search {
-    height: 35px;
-    width: 540px;
-    font-size: 16px;
-    border-style: outset;
-    margin-left: 10px;
-    padding-left: 5px;
+  height: 35px;
+  max-width: 540px;
+  width: 100%;
+  font-size: 16px;
+  border-style: outset;
+  margin-left: 10px;
+  padding-left: 5px;
+  margin-top: 10px;
 }
 
 .list {
-    padding: 15px;
-    padding-left: 137px;
-    padding-right: 550px;
-    line-height: 13px;
+  padding: 15px 550px 15px 137px;
+  line-height: 13px;
 }
 
 .text {
-    font-size: 12px;
-    margin-top: 7px;
+  font-size: 13px;
+  margin-top: 7px;
 }
 
 .nav {
-    padding-left: 130px;
-    font-size: 14px;
+  padding-left: 130px;
+  font-size: 14px;
 }
 
 input [type="image"] {
-    left: 100;
+  left: 100px;
 }
 
-a { 
-    text-decoration: none;
-} 
-   
+a {
+  text-decoration: none;
+}
+
 table {
-    padding-left: 157px;
-    font-size: 14px;
+  padding-left: 138px;
+  font-size: 14px;
 }
 
 .moreSearched {
-    padding-left: 157px;
-    font-weight: normal; 
-    font-size: 17px;
+  padding-left: 138px;
+  font-weight: normal;
+  font-size: 17px;
 }
 
 .list a:first-child {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .navigation {
-    padding-left: 230px;
+  padding-left: 230px;
 }
 
-.undertext {
-    font-size: 12px;
+.under-text {
+  font-size: 13px;
 }
 
-.undertext a:first-child {
-    font-size: 12px;
+.under-text a:first-child {
+  font-size: 13px;
 }
 
 .url {
-    font-size: 13px;
-    margin-top: 5px;
+  font-size: 13px;
+  margin-top: 5px;
 }
 .url a:first-child {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .footer {
-    margin-top: 10px;
-    font-size: 14px;
+  margin-top: 10px;
+  font-size: 14px;
 }
 
 .ghost {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
-.searchimage {
-    position: relative;
-    left: -34px;
-    top: 7px;
+.search-image {
+  position: relative;
+  left: -55px;
+  top: 7px;
 }
 
 .keyboard {
-    position: relative;
-    left: -90px;
-    top: 1px;
+  position: relative;
+  left: -60px;
+  top: 1px;
 }
 
-.Gplus {
-    position: relative;
-    left: 420px;
-    top: 10px;
-}
-
-.bell {
-    position: relative;
-    left: 415px;
-    top: 10px;
+.Google-plus {
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 
 .panel {
-    position: relative;
-    left: 415px;
-    top: 10px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.bell {
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.google-icon {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+.longer-header {
+  padding-bottom: 15px;
+}
+
+.list:first-child {
+  display: block;
+}
+
+.text-with-br {
+  display: block;
+}
+
+.deleting-after-table-br {
+  margin-bottom: 15px;
+}
+
+.bottom-nav {
+  display: block;
+}
+
+.replace-br {
+  display: block;
+  margin-top: 15px;
+}
+
+.under-text-with-br {
+  margin-bottom: 25px;
+}
+
+.nav-active {
+  border-bottom: 3px solid #1A73E8;
+  color: #1A73E8;
+  font-weight: bold;
+  height: 15px;
+  line-height: 15px;
+  padding: 28px 9px 12px;
+}
+
+.nav-non-active {
+  color: #666666;
+  font-size: 13px;
+  height: 15px;
+  line-height: 15px;
+  padding: 28px 5px 12px;
+}
+
+.smaller-size {
+  margin-top: 10px;
+  margin-left: 140px;
+  font-size: 13px;
 }

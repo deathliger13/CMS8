@@ -1,0 +1,64 @@
+body {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-comment h1 {
+  color: #ffffff;
+  font-family: "Arial MT", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+.form-comment {
+  width: 680px;
+  height: 250px;
+  margin: 0 auto;
+  background-color: #709ad3;
+  border: 15px solid #7797c1;
+}
+
+.form-comment label{
+  color: #000000;
+  font-family: "Arial MT", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+li, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.form-comment ul {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: self-start;
+}
+
+.form-comment li {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.form-comment ul {
+  height: 300px;
+}
+
+.form-comment textarea {
+  width: 300px;
+  height: 100px;
+}
+
+.form-comment input[type=submit]{
+  width: 90px;
+  height: 30px;
+}

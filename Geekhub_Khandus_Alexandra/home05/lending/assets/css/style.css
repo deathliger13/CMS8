@@ -1,0 +1,360 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Akzidenz bold";
+  src: url(assets/fonts/Berthold-akzidenz-grotesk-be-bold.ttf);
+}
+
+@font-face {
+  font-family: "Akzidenz medium";
+  src: url(assets/fonts/Berthold-akzidenz-grotesk-be-medium.ttf);
+}
+
+.container {
+  max-width: 1815px;
+}
+
+.bg-green-midle {
+  background: #a7dbd3;
+}
+
+.bg-green-dark {
+  background: #008375;
+}
+
+.bg-green-light {
+  background: #a7dbd3;
+}
+
+.bg-green-super-light {
+  background: #d0ebe7;
+}
+
+/***********************NAV******************/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+nav h1, nav h2 {
+  display: none;
+}
+
+.brand {
+  padding-right: 30px;
+}
+
+/**********************HEADER****************/
+
+.picture {
+  height: 690px;
+  width: 894px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+/****************ARTICLE*********************/
+
+article {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+article h2 {
+  color: #5a5555;
+  font-family: "Akzidenz bold", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+article span {
+  font-weight: 400;
+  font-size: 44px;
+}
+
+article p {
+  color: #5a5555;
+  font-family: "Akzidenz medium", sans-serif;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 45.52px;
+}
+
+/*******************FORM*********************/
+
+form {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 59px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.form-header h3 {
+  color: #a7dbd3;
+  font-family: "Akzidenz bold", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form-header a {
+  color: #a7dbd3;
+  font-family: Gotham, sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+form p{
+  color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  margin-right: 200px;
+}
+
+.form-filds {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.form-filds-left, .form-filds-right {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+form input {
+  flex-basis: 100%;
+  height: 54px;
+  background: #e3f3ef;
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form .input-half-size {
+  flex-basis: 48%;
+}
+
+input::placeholder {
+  color: #76b9b2;
+  font-family: Gotham, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+form input.submit {
+  flex-basis: 150px;
+  height: 61px;
+  color: #ffffff;
+  font-family: Gotham, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  background-color: #68c2b6;
+  border: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/***************ORDERNOW***********/
+
+.order-now {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.order-now h2 {
+  color: #575756;
+  font-family: "Akzidenz bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.order-now h3 {
+  color: #575756;
+  font-family: "Akzidenz bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+h2.first {
+  padding-left: 30px;
+  margin-bottom: 90px;
+}
+
+h2.second {
+  padding-left: 160px;
+}
+
+h3.first {
+  padding-left: 85px;
+}
+
+h3.second {
+  padding-left: 460px;
+}
+
+.img-breeze {
+  position: absolute;
+  top: 185px;
+  z-index: 1;
+}
+
+.btn-order-now {
+  display: block;
+  width: 187px;
+  height: 61px;
+  text-align: center;
+  padding-top: 16px;
+  color: #ffffff;
+  font-family: Gotham,sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  background-color: #007f6c;
+}
+
+/************DOWNLOAD************/
+
+.download {
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.download h2 {
+  color: #777373;
+  font-family: "Akzidenz medium", sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.download-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.item3 {
+  width: 195px;
+  height: 254px;
+  background: #ffffff;
+  padding-top: 45px;
+}
+
+.download a {
+  display: block;
+  color: #515151;
+  font-family: Gotham, sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+.link-img {
+  position: relative;
+}
+
+.link-img:before, .link-img:after {
+  /*content: '';
+  width: 68px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  bottom: 60px;
+  left: -30px;
+  z-index: -1;*/
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.link-img:after {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+
+/****************FOOTER************/
+
+footer {
+  background: #515151;
+  max-width: 1815px;
+  padding-top: 47px;
+  padding-bottom: 29px;
+}
+
+footer p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #eef1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+

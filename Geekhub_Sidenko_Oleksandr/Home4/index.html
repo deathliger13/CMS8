@@ -2,38 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>css selector - Поиск в Google</title>
 </head>
 <body>
     <header>
-        <a href="https://www.google.com.ua" class="logo">
+        <div class="wraper">
+        <a class="logo" href="https://www.google.com.ua">
             <h1 class="hide-text" title="Главная станица Google">Google</h1>
         </a>
-                    
-            <form action="#" method="get" class="search">
-                <input type="text" name="text" required value="css selector">
-                <a class="keyboard" href="#" title="Экранная клавиатура">
-                    <span hidden>keyboard</span>
-                </a>
-                <a class="microphone" href="#" title="Голосовой поиск">
-                    <span hidden>microphone</span>
-                </a>
-                <input type="submit" name="submit" value="Search"> 
-            </form>
-        <a class="app" href="#" title="Приложения Google">
-            <span hidden>app</span>
-        </a>
-        <a class="message" href="#" title="Уведомлений Google: 0">
-            <span hidden>message</span>
-        </a>
-        <a class="account" href="#" title="Аккаунт Google: Oleksandr Sidenko">
-            <span hidden>account</span>
-        </a>
-     
-        <nav>
-            <ul class="navigation">
-                <li class="fchild"><a href="#">Все</a></li>
+        <form action="#" method="get" class="search">
+            <input type="text" name="text" required value="css selector">
+            <a class="keyboard" href="#" title="Экранная клавиатура">
+                <span hidden>keyboard</span>
+            </a>
+            <a class="microphone" href="#" title="Голосовой поиск">
+                <span hidden>microphone</span>
+            </a>
+            <input type="submit" name="submit" value="Search">
+        </form>
+        </div>
+        <aside>
+            <a class="app" href="#" title="Приложения Google">
+                <span hidden>app</span>
+            </a>
+            <a class="message" href="#" title="Уведомлений Google: 0">
+                <span hidden>message</span>
+            </a>
+            <a class="account" href="#" title="Аккаунт Google: Oleksandr Sidenko">
+                <span hidden>account</span>
+            </a>
+        </aside>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="#">Все</a></li>
                 <li><a href="#">Картинки</a></li>
                 <li><a href="#">Видео</a></li>
                 <li><a href="#">Новости</a></li>
@@ -44,176 +47,254 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <div class="container">
+        <main>
         <span>Результатов: примерно 20 900 000 (0,34 сек.)</span>
-        <ul class="cont">
-            <li>
-                <ul class="result1">
-                    <li>
+        <ul class="results">
+            <li> <!--article-->
+                <ul>
+                    <li class="link-article">
                         <a href="#">
                             <h2>CSS Selectors Reference - W3Schools</h2><br>
                             <cite>https://www.w3schools.com/cssref/css_selectors.asp</cite>
                         </a>
                     </li>    
-                    <li><a href="#"><span>&#9660;</span></a></li>
-                    <li>    
-                        <a class="translate" href="#">Перевести эту страницу</a>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="translate">
+                        <a href="#">Перевести эту страницу</a>
                     </li>
-                    <li>
+                    <li class="short-content">
                         <p><em>CSS Selectors</em>. In <em>CSS</em>, <em>selectors</em>
                         are patterns used to select the element(s) you want to style. 
                         Use our <em>CSS Selector</em> Tester to
                         demonstrate the different selectors.</p>
                     </li>
-            ‎        <li><a href="#">‎Element+element ·</a></li>
-                    <li><a href="#">CSS * Selector‎ ·</a></li>
-                    <li><a href="#">Element1~element2 ·‎</a></li>
-                    <li><a href="#">‎CSS Selector Tester‎</a></li>
+            ‎        <li class="other-links">
+                        <a href="#">‎Element+element ·</a><a href="#">CSS * Selector‎ ·</a>
+                        <a href="#">Element1~element2 ·‎</a><a href="#">‎CSS Selector Tester‎</a>
+                    </li>
                 </ul>
-                <ul class="result2">
-                    <li>
+            </li> <!--article w3schools.com-->
+            <li>  <!--article-->
+                <ul>
+                    <li class="link-article">
                         <a href="#">
                             <h2>Знаете ли вы селекторы? - Современный учебник Javascript</h2><br>
                             <cite>https://learn.javascript.ru/css-selectors</cite>
                         </a>
-                    </li>    
-                    <li><a href="#"><span>&#9660;</span></a></li>
-                    <li>    
-                        <a class="translate" href="#">Перевести эту страницу</a>
                     </li>
-                    <li>
-                        <p><em>CSS3</em>-селекторы – фундаментально полезная вещь. Даже если вы почему-то (старый IE?) не пользуетесь ими в <em>CSS</em>, есть много фреймворков для их ...</p>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="short-content">
+                        <p>
+                            <em>CSS3</em>-селекторы – фундаментально полезная вещь. Даже если вы почему-то (старый IE?)
+                            не пользуетесь ими в <em>CSS</em>, есть много фреймворков для их ...
+                        </p>
                     </li>
-            ‎        <li><a href="#">‎‎Основные виды селекторов ·</a></li>
-                    <li><a href="#"> ‎Отношения‎ ·</a></li>
-                    <li><a href="#"> ‎Селекторы атрибутов ·‎</a></li>
+                    ‎<li class="other-links">
+                        <a href="#">‎‎Основные виды селекторов ·</a><a href="#"> ‎Отношения‎ ·</a>
+                        <a href="#"> ‎Селекторы атрибутов ·‎</a>
+                    </li>
                 </ul>
-                <ul class="result3">
-                    <li>
+            </li> <!--article learn.javascript.ru-->
+            <li> <!--article-->
+                <ul>
+                    <li class="link-article">
                         <a href="#">
                             <h2>CSS-селекторы - CSS | MDN</h2><br>
                             <cite>https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Селекторы</cite>
                         </a>
-                    </li>    
-                    <li><a href="#"><span>&#9660;</span></a></li>
-                    <li>    
-                        <a class="translate" href="#">Перевести эту страницу</a>
                     </li>
-                    <li>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="short-content">
                         <p>
-                           2 сент. 2018 г. - Селектор определяет, к какому
-                           элементу применять то или иное <em>CSS</em>-правило.
+                            2 сент. 2018 г. - Селектор определяет, к какому
+                            элементу применять то или иное <em>CSS</em>-правило.
                         </p>
                     </li>
-            ‎        <li><a href="#">‎‎‎Базовые селекторы  ·</a></li>
-                    <li><a href="#">Комбинаторы‎ ·</a></li>
+                    ‎<li class="other-links">
+                        <a href="#">‎‎‎Базовые селекторы  ·</a><a href="#">Комбинаторы‎ ·</a>
+                    </li>
                 </ul>
-                <ul class="result4">
-                    <li>
+            </li> <!--article developer.mozilla.org-->
+            <li> <!--article-->
+                <ul>
+                    <li class="link-article">
                         <a href="#">
-                            <h2>CSS Selectors Reference - W3Schools</h2><br>
-                            <cite>https://www.w3schools.com/cssref/css_selectors.asp</cite>
+                            <h2>Level up your CSS selector skills – LogRocket</h2><br>
+                            <cite>https://blog.logrocket.com/level-up-your-css-selector-skills-5...</cite>
                         </a>
-                    </li>    
-                    <li><a href="#"><span>&#9660;</span></a></li>
-                    <li>    
-                        <a class="translate" href="#">Перевести эту страницу</a>
                     </li>
-                    <li>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="translate">
+                        <a href="#">Перевести эту страницу</a>
+                    </li>
+                    <li class="short-content">
                         <p>
-                            <em>CSS Selectors</em>. In <em>CSS</em>, <em>selectors</em> are patterns used to select
-                            the element(s) you want to style. Use our <em>CSS Selector</em> Tester to
-                            demonstrate the different selectors.
+                            4 июн. 2018 г. - An in-depth review of interesting CSS selectors, plus
+                            a few that will be available in the future.
                         </p>
                     </li>
-            ‎        <li><a href="#">‎Element+element ·</a></li>
-                    <li><a href="#">CSS * Selector‎ ·</a></li>
-                    <li><a href="#">Element1~element2 ·‎</a></li>
-                    <li><a href="#">‎CSS Selector Tester‎</a></li>
                 </ul>
-                <ul class="result5">
-                    <li>
+            </li> <!--article blog.logrocket.com-->
+            <li> <!--article-->
+                <ul>
+                    <li class="link-article">
                         <a href="#">
-                            <h2>CSS Selectors Reference - W3Schools</h2><br>
-                            <cite>https://www.w3schools.com/cssref/css_selectors.asp</cite>
+                            <h2>Глава 2: Селекторы, часть 1 — Курс «Основы CSS» — HTML ...</h2><br>
+                            <cite>https://htmlacademy.ru/courses/42</cite>
                         </a>
-                    </li>    
-                    <li><a href="#"><span>&#9660;</span></a></li>
-                    <li>    
-                        <a class="translate" href="#">Перевести эту страницу</a>
                     </li>
-                    <li>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="short-content">
                         <p>
-                            <em>CSS Selectors</em>. In <em>CSS</em>, <em>selectors</em> are patterns used to select
-                            the element(s) you want to style. Use our <em>CSS Selector</em> Tester to
-                            demonstrate the different selectors.
+                            Опробуем один из самых важнейших механизмов CSS — селекторы. Научимся пользоваться
+                            простыми и продвинутыми селекторами, псевдоклассами, ...
                         </p>
                     </li>
-            ‎        <li><a href="#">‎Element+element ·</a></li>
-                    <li><a href="#">CSS * Selector‎ ·</a></li>
-                    <li><a href="#">Element1~element2 ·‎</a></li>
-                    <li><a href="#">‎CSS Selector Tester‎</a></li>
                 </ul>
-                <ul class="result6">
-                    <li>
+            </li> <!--article htmlacademy.ru-->
+            <li> <!--article-->
+                <ul>
+                    <li class="link-article">
                         <a href="#">
-                            <h2>CSS Selectors Reference - W3Schools</h2><br>
-                            <cite>https://www.w3schools.com/cssref/css_selectors.asp</cite>
+                            <h2>CSS Selectors | HTML Dog</h2><br>
+                            <cite>htmldog.com/references/css/selectors/</cite>
                         </a>
-                    </li>    
-                    <li><a href="#"><span>&#9660;</span></a></li>
-                    <li>    
-                        <a class="translate" href="#">Перевести эту страницу</a>
                     </li>
-                    <li>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="translate">
+                        <a href="#">Перевести эту страницу</a>
+                    </li>
+                    <li class="short-content">
                         <p>
-                            <em>CSS Selectors</em>. In <em>CSS</em>, <em>selectors</em> are patterns used to select
-                            the element(s) you want to style. Use our <em>CSS Selector</em> Tester to
-                            demonstrate the different selectors.
+                            element, Type selector. Matches an element. p { color: red } /* matches paragraphs */
+                            .class, Class selector. Matches the value of a class attribute. .warning ...
                         </p>
                     </li>
-            ‎        <li><a href="#">‎Element+element ·</a></li>
-                    <li><a href="#">CSS * Selector‎ ·</a></li>
-                    <li><a href="#">Element1~element2 ·‎</a></li>
-                    <li><a href="#">‎CSS Selector Tester‎</a></li>
                 </ul>
-                <ul class="result7">
-                    <li>
+            </li> <!--article htmldog.com-->
+            <li> <!--article-->
+                <ul>
+                    <li class="link-article">
                         <a href="#">
-                            <h2>CSS Selectors Reference - W3Schools</h2><br>
-                            <cite>https://www.w3schools.com/cssref/css_selectors.asp</cite>
+                            <h2>The CssSelector Component (Symfony Docs)</h2><br>
+                            <cite>https://symfony.com › Documentation › Components</cite>
                         </a>
-                    </li>    
-                    <li><a href="#"><span>&#9660;</span></a></li>
-                    <li>    
-                        <a class="translate" href="#">Перевести эту страницу</a>
                     </li>
-                    <li>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="translate">
+                        <a href="#">Перевести эту страницу</a>
+                    </li>
+                    <li class="short-content">
                         <p>
-                            <em>CSS Selectors</em>. In <em>CSS</em>, <em>selectors</em> are patterns used to select
-                            the element(s) you want to style. Use our <em>CSS Selector</em> Tester to
-                            demonstrate the different selectors.
+                            This article explains how to use the CssSelector features as an independent
+                            component in any PHP application. Read the Symfony Functional Tests article to ...
                         </p>
                     </li>
-            ‎        <li><a href="#">‎Element+element ·</a></li>
-                    <li><a href="#">CSS * Selector‎ ·</a></li>
-                    <li><a href="#">Element1~element2 ·‎</a></li>
-                    <li><a href="#">‎CSS Selector Tester‎</a></li>
+                    ‎<li class="other-links">
+                        <a href="#">SymfonyCon Lisbon 2018</a>
+                        <a href="#">SymfonyLive Paris ...</a>
+                    </li>
                 </ul>
-            </li>
-
-        
+            </li> <!--article symfony.com -->
+            <li> <!--article-->
+                <ul>
+                    <li class="link-article">
+                        <a href="#">
+                            <h2>A CSS Selector Reference ← Alligator.io</h2><br>
+                            <cite>https://alligator.io/css/css-selectors/</cite>
+                        </a>
+                    </li>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="translate">
+                        <a href="#">Перевести эту страницу</a>
+                    </li>
+                    <li class="short-content">
+                        <p>
+                            Can't remember which selector to use? Here's an easy reference of all
+                            the CSS selectors, including those from CSS Selectors Level 3 (CSS3)....
+                        </p>
+                    </li>
+                </ul>
+            </li> <!--article alligator.io-->
+            <li> <!--article-->
+                <ul>
+                    <li class="link-article">
+                        <a href="#">
+                            <h2>30 CSS селекторов, которые вы должны запомнить - Code Tuts</h2><br>
+                            <cite>https://code.tutsplus.com/ru/.../the-30-css-selectors-you-must-memorize--net-16048</cite>
+                        </a>
+                    </li>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="short-content">
+                        <p>
+                            9 июн. 2011 г. - Согласно спецификации CSS3, псевдоклассы должны
+                            отделяться двойным двоеточим :: . ... X:not(selector) ..... по возможности
+                            использовать нативные CSS3 селекторы вместо предлагаемых библиотекой методов.
+                        </p>
+                    </li>
+                </ul>
+            </li> <!--article code.tutsplus.com-->
+            <li> <!--article-->
+                <ul>
+                    <li class="link-article">
+                        <a href="#">
+                            <h2>CSS: Селекторы</h2><br>
+                            <cite>vvz.nw.ru/Lessons/CSS/selectors.htm</cite>
+                        </a>
+                    </li>
+                    <li class="saved-copy"><a href="#"><span>&#9660;</span></a></li>
+                    <li class="short-content">
+                        <p>
+                            Селекторы. Итак, селектор - это формальное описание того
+                            элемента или группы элементов, к которым применяется указанное правило стиля.
+                        </p>
+                    </li>
+                </ul>
+            </li> <!--article vvz.nw.ru-->
         </ul>
     </main>
+        <div class="typical-requests">
+            <span>Вместе с css selector часто ищут</span>
+        <ul>
+            <li><a href="#">‎css selector plus</a></li>
+            <li><a href="#">‎css selector selenium</a></li>
+            <li><a href="#">‎css selector parent</a></li>
+            <li><a href="#">css селекторы атрибутов</a></li>
+            <li><a href="#">css selector class</a></li>
+            <li><a href="#">‎‎mdn css selectors</a></li>
+            <li><a href="#">30 css selectors</a></li>
+            <li><a href="#">‎css selector attribute</a></li>
+        </ul>
+    </div>
+        <nav class="page-navigation">
+        <a class="navigation-img" href="#"><span hidden>Gooooooogle</span></a>
+        <ul>
+            <li><a href="#">‎Предыдущая</a></li>
+            <li><a href="#">‎1</a></li>
+            <li><a href="#">‎2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">Следующая</a></li>
+        </ul>
+    </nav>
+    </div>
     <footer>
-     <ul>
-        
+        <span>
+            Украина Припортовый, Черкассы, Черкасская область-На основе вашего
+            IP-адреса-
+        </span>
+        <a href="#">Учитывать мое местоположение</a><a href="#">Подробнее...</a>
+        <ul>
             <li><a href="#">Справка</a></li>
             <li><a href="#">Отправить отзыв</a></li>
             <li><a href="#">Конфиденциальнось</a></li>
             <li><a href="#">Условия</a></li>
-     </ul>
+        </ul>
     </footer>
-    
 </body>
 </html>

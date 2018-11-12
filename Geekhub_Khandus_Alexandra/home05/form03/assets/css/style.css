@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Myriad;
+    src: url("assets/fonts/Myriad.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Myriad, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 341px;
+    height: 151px;
+    box-shadow: inset 0 0 20px rgba(192, 192, 192, 0.23);
+    border-radius: 15px;
+}
+
+header {
+    height: 47px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: linear-gradient(to top, #4a1d81 0%, #7832ce 12%, #8426e4 30%, #8017c2 53%, #bb32ee 92%, #dc78ff 100%);
+    display: flex;
+}
+
+.background {
+    height: 104px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-image: linear-gradient(to top, #3f3f3f 0%, #3f3f3f 8%, #727272 24%, #ffffff 100%);
+    display: flex;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px rgba(76, 11, 142, 0.75);
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    margin: auto;
+}
+
+.form {
+    width: 293px;
+    height: 34px;
+    box-shadow: inset 1px 1px 0 #000000;
+    background-color: #b5b5b5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-left: 6px;
+    padding-right: 3px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+input {
+    background: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-email {
+    padding-left: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    padding-top: 3px;
+}
+
+.submit {
+    width: 71px;
+    height: 26px;
+    background-image: linear-gradient(to top, #000000 0%, #333333 100%);
+    color: #c0c0c0;
+    font-family: Myriad, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}

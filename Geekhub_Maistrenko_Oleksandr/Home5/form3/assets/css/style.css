@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 13px;
+  background-color: #fff;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.form-container {
+  width: 340px;
+  margin: 100px auto;
+  text-align: center;
+  border: 4px solid #000;
+  border-radius: 10px;
+  background-color: #000;
+}
+p.subscribe-to {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgba(76, 11, 142, 0.75);
+  line-height: 43px;
+  border-bottom: 1px solid #fff;
+  border-radius: 10px 10px 0 0;
+  background-image: linear-gradient(to top, #4a1d81 0%, #7832ce 12%, #8426e4 30%, #8017c2 53%, #bb32ee 92%, #dc78ff 100%);
+}
+form {
+  height: 100px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: inset 0 0 7px 0 rgba(255,255,255,1);
+  background-image: linear-gradient(to top, #3f3f3f 0%, #3f3f3f 8%, #727272 24%, #ffffff 100%);
+}
+.input-field-container {
+  height: 24px;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #b5b5b5;
+  box-shadow: 1px 1px 0 #ffffff, inset 1px 1px 0 #000000;
+}
+input {
+  display: inline-block;
+  width: auto;
+  height: 20px;
+  border: none;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 0 #d9d9d9;
+  background-color: #b5b5b5;
+}
+input[type="submit"] {
+  display: inline-block;
+  width: 70px;
+  height: 25px;
+  padding: 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-shadow: none;
+  color: #c0c0c0;
+  background-image: linear-gradient(to top, #000000 0%, #333333 100%);
+  box-shadow: none;
+}
+.letter-img {
+  display: inline-block;
+  width: 32px;
+  height: 25px;
+  vertical-align: middle;
+  background: url("../img/letter-logo.png") 50% 50% no-repeat;
+}
+.form-footer {
+  height: 32px;
+  background-image: linear-gradient(to top, #202020 0%, #313131 100%);
+}
