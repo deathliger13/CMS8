@@ -1,99 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href='css/bootstrap.css' type='text/css' media='all'>
-    <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="container">
-    <form id="form1">
-        <div class="form1head">
-            <h2>We love to hear from you!</h2>
-        </div>
-        <div class="form1body">
-            <div>
-                <label>
-                    Your Name:
-                    <input type="text" name="name">
-                </label>
-                <label>
-                    Your Email Address:
-                    <input type="text" name="email">
-                </label>
-                <label>
-                    Select Service
-                    <select>
-                        <option disabled="disabled" selected="selected">Select Industry</option>
-                        <option>Industry 1</option>
-                        <option>Industry 2</option>
-                    </select>
-                </label>
-                <h5>We value your privacy. We do not share or rent your contact details.</h5>
-            </div>
-            <div>
-                <label>
-                    Your Message:
-                    <textarea></textarea>
-                </label>
-                <button>submit</button>
-            </div>
+	<form id="form1" action="mail.php" method="POST">
+		<table cellspacing="0">
+			<thead class="form1head">
+				<tr>
+					<td colspan="2"><h2>We love to hear from you!</h2></td>
+				</tr>
+			</thead>
+			<tbody class="form1body">
+				<tr>
+					<td>
+						<label>
+							Your Name:
+							<input type="text" name="name">
+						</label>
+						<label>
+							Your Email Address:
+							<input type="text" name="email">
+						</label>
+						<label>
+							Select Service
+							<select>
+								<option disabled="disabled" selected="selected">Select Industry</option>
+								<option>Industry 1</option>
+								<option>Industry 2</option>
+							</select>
+						</label>
+						<h5>We value your privacy. We do not share or rent your contact details.</h5>
+					</td>
+					<td>
+						<label>
+							Your Message:
+							<textarea></textarea>
+						</label>
+						<button>submit</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+	</form>
 
-        </div>
-    </form>
+<div style="clear:both; height: 50px;"></div>
 
-    <div style="clear:both; height: 50px;"></div>
+	<form id="form2" action="mail.php" method="POST">
+		<table cellspacing="0">
+			<thead class="form2head">
+				<tr>
+					<td colspan="2"><h2>Leave your comment here</h2></td>
+				</tr>
+			</thead>
+			<tbody class="form2body">
+				<tr>
+					<td>
+						<label>
+							Your Name:
+							<input type="text" name="name">
+						</label>
+						<label>
+							Your Email (Required):
+							<input type="text" name="email">
+						</label>
+						<label>
+							Your Website:
+							<input type="text" name="site" placeholder="http://">
+						</label>
+						<label>
+							<input type="checkbox" name="notify">
+							<span>Notify me follow-up comments<br> via email.</span>
+						</label>
+					</td>
+					<td>
+						<label>
+							Your Comment Here:
+							<textarea></textarea>
+						</label>
+						<button>Submit</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
 
-    <form id="form2">
-        <div class="form2head">
-            <h2>Leave your comment here</h2>
-        </div>
-        <div class="form2body">
-            <div>
-                <label>
-                    Your Name:
-                    <input type="text" name="name">
-                </label>
-                <label>
-                    Your Email (Required):
-                    <input type="text" name="email">
-                </label>
-                <label>
-                    Your Website:
-                    <input type="text" name="site" placeholder="http://">
-                </label>
-                <label>
-                    <input type="checkbox" name="notify">
-                    <span>Notify me follow-up comments<br> via email.</span>
-                </label>
-            </div>
-            <div>
-                <label>
-                    Your Comment Here:
-                    <textarea></textarea>
-                </label>
-                <button>Submit</button>
-            </div>
-        </div>
-    </form>
-
-    <div style="clear:both; height: 50px;"></div>
-
-    <form id="form3">
-        <div class="form3head">
-            <h2>Subscribe to Our Newsletter</h2>
-        </div>
-        <div class="form3body">
-            <div>
-                <label>
-                    <input type="text" name="email" placeholder="email address here">
-                    <button>SUBMIT</button>
-                </label>
-            </div>
-        </div>
-    </form>
+<div style="clear:both; height: 50px;"></div>
+	
+	<form id="form3" action="mail.php" method="POST">
+		<table cellspacing="0">
+			<thead class="form3head">
+				<tr>
+					<td><h2>Subscribe to Our Newsletter</h2></td>
+				</tr>
+			</thead>
+			<tbody class="form3body">
+				<tr>
+					<td>
+						<label>
+							<input type="text" name="email" placeholder="email address here">
+							<button>SUBMIT</button>
+						</label>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
 
 
 </div>

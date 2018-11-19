@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #f4f4f4;
+  font-size: 58px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #5a5a5a;
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+p {
+  color: #5a5a5a;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.left-side {
+  float: left;
+  width: 50%;
+}
+
+.right-side {
+  float: right;
+  width: 50%;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/***************************Header**************************/
+header, .plan-diet, .foot, .wrapper {
+  position: relative;
+}
+
+.header-background {
+  background: url("../img/header-fruits.png") no-repeat 0 50% #2ecc71;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.main-menu {
+  padding: 30px 0;
+}
+
+.list-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.list-menu li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.logo {
+  font: 900 39px/24px "Segoe UI Black", sans-serif;
+  font-style: italic;
+  letter-spacing: 2px;
+  color: #f4f4f4;
+}
+
+li a {
+  padding: 5px 25px;
+  font-size: 18px;
+  color: #fefefe;
+}
+
+.get-app {
+  font: 700 18px/30px Roboto, sans-serif;
+  background-color: #fff;
+  color: #2ecc71;
+  border-radius: 20px;
+  margin-left: 25px;
+}
+
+@media (max-width: 600px) {
+  .main-menu {
+    text-align: center;
+  }
+
+  .list-menu {
+    float: none;
+  }
+}
+
+.wrapper {
+  margin: 50px 0;
+}
+
+.header-app {
+  position: relative;
+  padding: 65px 0;
+}
+
+.phone-img {
+  position: absolute;
+  width: 30%;
+  left: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.app-icon {
+  margin-left: -40px;
+  width: auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.header-app p, .foot p {
+  margin-bottom: 50px;
+  color: #f4f4f4;
+  letter-spacing: 1px;
+}
+
+.app img {
+  padding-right: 20px;
+  width: auto;
+}
+
+/*****************************Calorie-counter**************************/
+.green {
+  color: #2ecc71;
+}
+
+.cal-counter .wrapper {
+  padding-top: 50px;
+}
+
+/*****************************Plan-diet**********************************/
+.plan-diet-background {
+  background: url("../img/main-fruits.png") no-repeat 50% 100% #f9f9f9;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.plan-diet .wrapper {
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.plan-diet p, .foot p {
+  white-space: pre-wrap;
+}
+
+.plan-diet img {
+  width: calc(100% / 3 * 2);
+}
+
+/*****************************Meal-time********************************/
+.meal-time .left-side {
+  margin: 50px 0;
+}
+
+.timetable {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.time-form, .time-form-center {
+  width: 425px;
+  margin: 20px auto;
+  box-shadow: 0 0 60px rgba(15, 65, 36, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(145, 145, 145, 0.3);
+  background-color: #f9f9f9;
+}
+
+.time-form img, .time-form-center img, .dish, .time {
+  float: left;
+  width: auto;
+  padding: 20px 10px;
+}
+
+.time-form h3, .time-form-center h3, .calorie {
+  margin: 0;
+  color: #2ecc71;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.time-form p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.calorie {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.dish span:nth-child(4) {
+  margin: 0 5px;
+  font-weight: 700;
+  color: #b4b4b4;
+}
+
+.time {
+  float: right;
+  text-align: right;
+  color: #2ecc71;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.time-form:first-child span:first-child, .time span:nth-child(2) {
+  color: #b4b4b4;
+}
+
+.time span:nth-child(2) {
+  font-size: 16px;
+}
+
+.time span {
+  display: block;
+}
+
+.time-form-center {
+  width: 525px;
+}
+
+.time-form-center h3 {
+  font-size: 20px;
+}
+
+.time-form-center p, .time-form-center .calorie {
+  margin: 0;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.time-form-center .dish, .time-form-center .time {
+  padding: 40px 10px;
+}
+
+/******************************Footer************************************/
+.foot {
+  padding: 50px;
+  text-align: center;
+}
+
+.foot-background {
+  background: url("../img/footer-fruits.png") no-repeat 50% 100% #2ecc71;;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.foot h2 {
+  color: #fff;
+}
+
+footer .get-app {
+  display: inline-block;
+  padding: 5px 75px;
+}

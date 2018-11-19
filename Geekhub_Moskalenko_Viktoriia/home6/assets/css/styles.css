@@ -1,0 +1,231 @@
+body {
+  max-width: 1507px;
+  width: 100%;
+}
+
+.fon {
+  position: relative;
+  width: 100%;
+  background-color: #2ecc71;
+  float: left;
+  height: 700px;
+
+}
+
+.fruts {
+  position: absolute;
+  display: inline-block;
+  right: 90px;
+  width: 100%;
+  bottom: -35px;
+}
+
+.logoname {
+  position: absolute;
+  color: #f4f4f4;
+  font-family: "Segoe UI Black", Arial;
+  font-size: 39px;
+  left: 10%;
+  top: -20px;
+}
+
+.menu {
+  position: absolute;
+  left: 50%;
+  top: 25px;
+}
+
+.menu a {
+  color: #fefefe;
+  font-family: Roboto;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 10px;
+  width: 50%;
+  margin: 20px;
+}
+
+.getapp {
+  position: absolute;
+  right: 50px;
+  top: 19px;
+}
+
+.phone {
+  margin-left: 13%;
+  margin-top: 7%;
+  float: left;
+}
+
+.h {
+  color: #5a5a5a;
+  font-family: Roboto, Arial;
+  font-size: 45px;
+
+}
+
+.h a {
+  color: #2ecc71;
+  font-family: Roboto, Arial;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+.lorem {
+  color: #5a5a5a;
+  font-family: Roboto, Arial;
+  font-size: 22px;
+  margin-top: 27%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fon2 {
+  width: 100%;
+  background-color: #f9f9f9;
+  margin-top: 23%;
+}
+
+.banana {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.layer3_p {
+  color: #5a5a5a;
+  font-family: Roboto, Arial;
+  font-size: 45px;
+  text-align: center;
+}
+
+.layer3_p a {
+  color: #2ecc71;
+  font-family: Roboto, Arial;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+.layer3_p2 {
+  color: #5a5a5a;
+  font-family: Roboto, Arial;
+  font-size: 18px;
+  text-align: center;
+}
+
+.information {
+  position: absolute;
+  left: 22%;
+}
+
+.phonelrc {
+  position: absolute;
+  left: 17%;
+  padding: 12.5%;
+}
+
+.phoneleft {
+  width: 20%;
+  height: 7%;
+}
+
+.phonecenter {
+  width: 25%;
+  height: 12%;
+}
+
+.phoneright {
+  width: 20%;
+  height: 7%;
+  right: 15px;
+}
+
+.text1 {
+  color: #5a5a5a;
+  font-family: Roboto, Arial;
+  font-size: 45px;
+  text-align: left;
+}
+
+.text1 a {
+  color: #2ecc71;
+  font-family: Roboto, Arial;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+.text2 {
+  color: #5a5a5a;
+  font-family: Roboto, Arial;
+  font-size: 18px;
+  text-align: left;
+}
+
+.block3 {
+  padding: 10%;
+  float: left;
+}
+
+.apple {
+  padding: 30px;
+  margin: -40px;
+  margin-left: 20px;
+}
+
+.sandwich {
+  margin: -45px;
+  margin-left: -12px;
+}
+
+.salad {
+  margin: -20px;
+  margin-left: 30px;
+}
+
+.fon3 {
+  position: relative;
+  background-color: #2ecc71;
+  width: 100%;
+  height: 450px;
+  float: left;
+}
+
+.fruts2 {
+  position: absolute;
+  width: 92%;
+  max-width: 1200px;
+  height: 400px;
+  padding: 50px;
+
+}
+
+.end {
+  position: absolute;
+  color: #ffffff;
+  font-family: Roboto, Arial;
+  font-size: 40px;
+  left: 33%;
+  top: -15px;
+
+}
+
+.textend {
+  position: absolute;
+  color: #ffffff;
+  font-family: Roboto, Arial;
+  font-size: 22px;
+  left: 24%;
+  top: 30%;
+  text-align: center;
+
+}
+
+.getapp2 {
+  position: absolute;
+  left: 42%;
+  top: 60%;
+}

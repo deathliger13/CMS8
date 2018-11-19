@@ -1,0 +1,576 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    margin-top: 61px;
+}
+
+.app img:last-child {
+    margin-left: 30px;
+}
+
+.apple {
+    width: 421px;
+    height: 109px;
+    box-shadow: 0 0 60px rgba(15, 65, 36, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(145, 145, 145, 0.3);
+    margin: 0 auto;
+    position: relative;
+}
+
+.apple-info .point, .sandwich-info .point, .salad-info .point {
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+.apple-front article h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 60px;
+    color: #5a5a5a;
+    letter-spacing: 2px;
+}
+
+.apple-front article p {
+    color: #5a5a5a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.apple-front .container article {
+    width: 590px;
+    margin-top: 300px;
+    display: inline-block;
+    position: absolute;
+}
+
+.apple-front img {
+    margin-top: 110px;
+    position: relative;
+    right: 70px;
+}
+
+.apple img {
+    margin: 28px 20px 25px 19px;
+}
+
+.apple .time p {
+    color: #b4b4b4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 2px;
+}
+
+.apple .time p:last-child {
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.apple-info {
+    width: 140px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+
+.apple-info h3 {
+    color: #2ecc71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.apple-info span {
+    color: #5a5a5a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 1px;
+}
+
+.apple-info span:last-child {
+    color: #2ecc71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.apple-center-img {
+    position: absolute;
+    right: -80px;
+    top: 490px;
+}
+
+.apple-left-img {
+    position: absolute;
+    left: -150px;
+    top: 60px;
+}
+
+.apple-right-img {
+    position: absolute;
+    right: 41px;
+    top: 150px;
+}
+
+.central-section {
+    background-color: #f9f9f9;
+}
+
+.central-section .container {
+    position: relative;
+}
+
+.central-section .container img {
+    display: block;
+    margin: 111px auto 0 auto;
+}
+
+.central-section h2 {
+    color: #5a5a5a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 116px;
+}
+
+.central-section p {
+    color: #5a5a5a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    width: 848px;
+    margin: 0 auto;
+}
+
+.color-text {
+    color: #2ecc71;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container h4 strong {
+    font-weight: 700;
+}
+
+.central-section .container .pepper {
+    position: absolute;
+    top: 290px;
+    left: -200px;
+}
+
+.food {
+    float: right;
+    margin-top: 150px;
+}
+
+.food h3 {
+    margin: 0;
+}
+
+footer {
+    height: 500px;
+    background-color: #2ecc71;
+}
+
+footer .container div {
+    width: 247px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+footer .container div a {
+    text-decoration: none;
+    color: #2ecc71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+footer .container h4 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 113px;
+    margin-top: 0;
+}
+
+footer .container p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    width: 848px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+footer .outer-container {
+    height: 500px;
+}
+
+footer .outer-container img {
+    position: absolute;
+}
+
+footer .outer-container img:first-child {
+    top: 55px;
+    left: -80px;
+}
+
+footer .outer-container img:nth-child(2) {
+    left: 285px;
+    top: 75px;
+}
+
+footer .outer-container img:nth-child(3) {
+    bottom: 0;
+    left: 452px;
+}
+
+footer .outer-container img:nth-child(4) {
+    right: 250px;
+    top: 70px;
+}
+
+footer .outer-container img:nth-child(5) {
+    left: 90%;
+    top: 14%;
+}
+
+.h1 {
+    color: #f4f4f4;
+    font-family: "Segoe UI Black", serif;
+    font-size: 39px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+header {
+    background-color: #2ecc71;
+}
+
+.iphone {
+    position: relative;
+    margin: 50px 0 -4px 166px;
+}
+
+.left-block {
+    width: 630px;
+    float: left;
+    position: relative;
+}
+
+.left-block article {
+    float: left;
+}
+
+.left-block .logo {
+    margin-top: 197px;
+    box-shadow: 0 0 60px rgba(48, 60, 17, 0.15);
+    border-radius: 25px;
+}
+
+.left-block .banana {
+    position: absolute;
+    right: 0;
+}
+
+.menu .container {
+    height: 700px;
+}
+
+.menu-description {
+    width: 540px;
+    display: inline-block;
+    margin-top: 234px;
+}
+
+.menu-description h2 {
+    color: #5a5a5a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.menu-description p {
+    color: #5a5a5a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+nav {
+    float: right;
+}
+
+.nav {
+    margin-top: 40px;
+}
+
+.nav ul {
+    padding-top: 8px;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fefefe;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.nav ul li a:hover {
+    color: #2ecc71;
+    background-color: white;
+    border-radius: 21px;
+    padding: 12px;
+    font-weight: 700;
+}
+
+.nav ul li div {
+    width: 120px;
+    text-align: center;
+}
+
+.outer-container {
+    width: 2000px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.salad {
+    width: 421px;
+    height: 109px;
+    box-shadow: 0 0 60px rgba(48, 60, 17, 0.15);
+    border-radius: 8px;
+    border: 1px solid rgba(145, 145, 145, 0.3);
+    margin: 0 auto;
+    top: 56px;
+    position: relative;
+}
+
+.salad img {
+    margin: 25px 12px 22px 11px;
+}
+
+.salad .time p:last-child {
+    font-size: 16px;
+    margin-top: -10px;
+    color: #b4b4b4;
+}
+
+.salad .time p {
+    color: #2ecc71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 2px;
+}
+
+.salad-info {
+    width: 190px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+
+.salad-info h3 {
+    color: #2ecc71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.salad-info span {
+    color: #5a5a5a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 1px;
+}
+
+.salad-info span:last-child {
+    color: #2ecc71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sandwich {
+    width: 525px;
+    height: 135px;
+    box-shadow: 0 0 60px rgba(15, 65, 36, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(145, 145, 145, 0.3);
+    margin: 0 auto;
+    top: 28px;
+    position: relative;
+}
+
+.sandwich img {
+    margin: 13px 13px 20px 16px;
+}
+
+.sandwich .time p {
+    color: #2ecc71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 2px;
+}
+
+.sandwich .time p:last-child {
+    color: #b4b4b4;
+    font-size: 20px;
+    margin-top: -12px;
+}
+
+.sandwich-info {
+    width: 170px;
+    display: inline-block;
+    position: absolute;
+    top: 27px;
+}
+
+.sandwich-info h3 {
+    color: #2ecc71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.sandwich-info span {
+    color: #5a5a5a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 1px;
+}
+
+.sandwich-info span:last-child {
+    color: #2ecc71;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.strawberry {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 800px;
+}
+
+.central-section .container .strawberry-central-section {
+    position: absolute;
+    right: -107px;
+    top: 305px;
+}
+
+.time {
+    text-align: right;
+    position: absolute;
+    top: 20%;
+    right: 20px;
+}
+
+.time p {
+    margin: 0;
+}
+
+.top-section {
+    background-color: #2ecc71;
+}
+
+.top-section .outer-container .container {
+    position: relative;
+}
+
+.top-section article header h2 {
+    width: 685px;
+    color: #f4f4f4;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 66px;
+    margin-bottom: 26px;
+}
+
+.top-section article header h2 strong {
+    font-weight: 700;
+}
+
+.top-section article p {
+    color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+}

@@ -1,0 +1,337 @@
+body {
+  width: 2000px;
+}
+
+header {
+  height: 900px;
+  background-color: #2ecc71;
+  margin-top: -21px;
+  padding-left: 15%;
+}
+
+.head {
+  float: left;
+  margin-right: 5%;
+  color: #fefefe;
+  font: 18px Roboto;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.72px;
+  margin-top: 40px;
+
+}
+
+.logo {
+
+  margin-top: 32px;
+  margin-right: 200px;
+  float: left;
+  margin-left: 40px;
+}
+
+.menu {
+  display: block;
+}
+
+.button {
+  max-width: 140px;
+  max-height: 42px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #2ecc71;
+  font: 18px Roboto;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.72px;
+  text-decoration: none;
+  float: left;
+  margin-top: 35px;
+  padding: 5px 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.icon-store {
+  margin-right: 30px;
+  margin-top: 150px;
+}
+
+.help {
+  color: #f4f4f4;
+  font: 64px Roboto;
+  font-weight: 300;
+  line-height: 60px;
+  margin-left: 35px;
+  margin-top: 0;
+}
+
+.head-text {
+  color: #f4f4f4;
+  font: 18px Roboto;
+  font-weight: 300;
+  line-height: 32px;
+  width: 540px;
+  margin-left: 35px;
+  margin-bottom: 50px;
+}
+
+.img {
+  margin-left: 35px;
+}
+
+.block {
+  display: block;
+}
+
+.left {
+  margin-left: -400px;
+  margin-top: -600px;
+}
+
+.banana {
+  margin-left: 270px;
+  margin-top: -500px;
+}
+
+.strawberry {
+  margin-top: 500px;
+  margin-left: 500px;
+}
+
+.iphone {
+  margin-top: -823px;
+  margin-left: 800px;
+  position: absolute;
+  z-index: 20;
+}
+
+.under-phone {
+  margin-left: 1160px;
+  margin-top: -350px;
+  position: absolute;
+  z-index: 10;
+}
+
+.right {
+  margin-top: -750px;
+  margin-left: 1350px;
+}
+
+.second-block {
+  margin-top: 372px;
+  margin-left: 950px;
+}
+
+.Lorem {
+  width: 462px;
+  color: #5a5a5a;
+  font: 18px Roboto;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.54px;
+}
+
+.title2 {
+  font: 48px Roboto;
+  font-weight: 300;
+  line-height: 60px;
+  color: #5a5a5a;
+  letter-spacing: 1.44px;
+}
+
+.change {
+  color: #2ecc71;
+}
+
+.elipsa {
+  margin-left: 350px;
+  margin-top: -300px;
+}
+
+.iphone2 {
+  margin-top: -600px;
+  margin-left: 200px;
+}
+
+.first {
+  margin-left: 630px;
+  margin-top: -670px;
+}
+
+.second {
+  margin-left: 730px;
+  margin-top: 10px;
+}
+
+.third {
+  margin-left: 770px;
+  margin-top: 60px;
+}
+
+.fourth {
+  margin-left: 740px;
+  margin-top: 80px;
+}
+
+.fifth {
+  margin-left: 630px;
+  margin-top: 20px;
+  margin-bottom: 210px;
+}
+
+.grey-block {
+  height: 900px;
+  background-color: #f9f9f9;
+}
+
+.position3 {
+  padding: 116px 660px 0 660px;
+  margin-bottom: 31px;
+}
+
+.Lorem3 {
+  color: #5a5a5a;
+  font: 18px Roboto;
+  font-weight: 300;
+  line-height: 32px;
+  width: 848px;
+  text-align: center;
+  margin-left: 586px;
+}
+
+.left3 {
+  margin-top: 90px;
+  margin-left: 200px;
+}
+
+.apple3 {
+  margin-top: 15px;
+  margin-left: 400px;
+}
+
+.iphone3-1 {
+  margin-left: 560px;
+  margin-top: -425px;
+}
+
+.banana3 {
+  margin-left: 1300px;
+  margin-top: -425px;
+}
+
+.iphone3-2 {
+  margin-left: 1100px;
+  margin-top: -385px;
+}
+
+.iphone3-3 {
+  margin-left: 780px;
+  margin-top: -545px;
+}
+
+.right3 {
+  margin-left: 1550px;
+  margin-top: -600px;
+}
+
+.text4 {
+  width: 462px;
+  font: 18px Roboto;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.54px;
+  color: #5a5a5a;
+}
+
+.moving {
+  margin-left: 415px;
+  padding-top: 275px;
+}
+
+.block4-img1 {
+  margin-left: 1120px;
+  margin-top: -380px;
+}
+
+.block4-img2 {
+  margin-left: 1070px;
+  margin-top: -50px;
+}
+
+.block4-img3 {
+  margin-left: 1120px;
+  margin-top: -50px;
+  margin-bottom: 140px;
+}
+
+.bottom-smaller {
+  margin-bottom: -5px;
+}
+
+footer {
+  height: 445px;
+  background-color: #2ecc71;
+}
+
+.footer-title {
+  color: #ffffff;
+  font: 48px Roboto;
+  font-weight: 300;
+  line-height: 60px;
+  padding-top: 113px;
+  margin-left: 670px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.footer-text {
+  width: 848px;
+  color: #ffffff;
+  font: 18px Roboto;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.54px;
+  text-align: center;
+  margin-left: 565px;
+}
+
+.footer-button {
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-left: 870px;
+
+}
+
+.photo-0 {
+  margin-left: -90px;
+  padding-top: 50px;
+}
+
+.photo-1 {
+  margin-left: 300px;
+  margin-top: -300px;
+}
+
+.photo-2 {
+  margin-left: 475px;
+  margin-top: 175px;
+}
+
+.photo-3 {
+  margin-left: 1500px;
+  margin-top: -450px;
+}
+
+.photo-4 {
+  margin-left: 1835px;
+  margin-top: 103px;
+}
+
+.group4 {
+  margin-top: -500px;
+}
+

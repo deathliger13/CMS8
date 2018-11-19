@@ -4,30 +4,27 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href='css/bootstrap.css' type='text/css' media='all'>
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
     <link href="fonts/grotesk/stylesheet.css" media="all" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
 <header>
-    <div class="container">
-        <div class="col-sm-6">
+    <div class="container flexwrap">
+        <div class="leftside">
             <a href="#">
-                <img src="img/logo.png" alt="" style="padding:25px 0;"/>
+                <img src="img/logo.png" alt="" style="padding:25px 0;" width="226" height="27"/>
             </a>
         </div>
-        <div class="col-sm-6">
-            <div class="col-sm-6 col-sm-offset-6">
-                <img src="img/top_r.png" alt="" style="padding: 12px 0;">
-            </div>
+        <div class="rightside">
+            <img src="img/top_r.png" alt="" style="padding: 12px 0;" width="249" height="48">
         </div>
     </div>
 </header>
 
 <section id="land">
-    <div class="land-out text-center">
-        <img src="img/main.png" alt="" style="padding:30px 0 0;"/>
+    <div class="land_out text-center">
+        <img src="img/main.png" alt="" style="padding:30px 0 0;" width="894" height="661"/>
     </div>
     <div class="container">
         <h1>Meet Breeze<sup>TM</sup> RMGI. Strong, versatile and ready for a reliable bond.</h1>
@@ -38,55 +35,47 @@
 
 <section id="req">
     <div class="container">
-        <form action="mail.php">
-            <div class="row">
-                <div class="col-sm-6">
+        <form action="" method="POST">
+            <div class="flexwrap">
+                <div class="leftside">
                     <h1>REQUEST SAMPLE</h1>
                 </div>
-                <div class="col-sm-6 text-right">
+                <div class="rightside text-right">
                     <h4>1-855-748-2964</h4>
                 </div>
-                <div class="col-sm-12">
-                    <h5>Complete the form and we will connect with you to confirm your complimentary sample of Breeze
-                        RMGI.*</h5>
-                </div>
             </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <input type="text" name="first_name" placeholder="First Name">
+            <h5>Complete the form and we will connect with you to confirm your complimentary sample of Breeze
+                RMGI.*</h5>
+            <div class="blockwrap">
+                <div>
+                    <div>
+                        <input class="it4" type="text" name="first_name" placeholder="First Name">
+                    </div>
+                    <div>
+                        <input class="it4" type="text" name="last_name" placeholder="Last Name">
+                    </div>
+                    <input class="it2" type="text" name="practice_name" placeholder="Practice Name">
+                    <input class="it2" type="text" name="street_adress" placeholder="Street Address">
+                    <input class="it2" type="text" name="current" placeholder="Current Cement Used (if known)">
                 </div>
-                <div class="col-sm-3">
-                    <input type="text" name="last_name" placeholder="Last Name">
+                <div>
+                    <input class="it2" type="text" name="email" placeholder="Email">
+                    <input class="it2" type="text" name="phone_number" placeholder="Phone Number">
+                    <div>
+                        <input class="it4" type="text" name="state" placeholder="State/Province">
+                    </div>
+                    <div>
+                        <input class="it4" type="text" name="country" placeholder="Country">
+                    </div>
+                    <span class="text-right">
+						<button>Submit</button>
+					</span>
                 </div>
-                <div class="col-sm-6">
-                    <input type="text" name="email" placeholder="Email">
-                </div>
+
             </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <input type="text" name="practice_name" placeholder="Practice Name">
-                </div>
-                <div class="col-sm-6">
-                    <input type="text" name="phone_number" placeholder="Phone Number">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <input type="text" name="street_adress" placeholder="Street Address">
-                </div>
-                <div class="col-sm-3">
-                    <input type="text" name="state" placeholder="State/Province">
-                </div>
-                <div class="col-sm-3">
-                    <input type="text" name="country" placeholder="Country">
-                </div>
-                <div class="col-sm-6">
-                    <input type="text" name="current" placeholder="Current Cement Used (if known)">
-                </div>
-                <div class="col-sm-3 col-sm-offset-3 text-right">
-                    <button>Submit</button>
-                </div>
-            </div>
+
+            <div style="clear:both;"></div>
+
         </form>
     </div>
 </section>

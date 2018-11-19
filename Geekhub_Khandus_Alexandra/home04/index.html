@@ -3,41 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Home04</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="wrapper">
         <div class="left">
             <div class="logo">
+                <h1>google</h1>
                 <a href="https://www.google.com.ua/webhp?hl=uk&ictx=2&sa=X&ved=0ahUKEwjS3LTXrq3eAhUQmIsKHRzgAQcQPQgH">
-                    <img alt="Геловін 2018" height="44" width="120" title="Геловін" src="img/logo.png">
+                    <img alt="Геловін 2018" height="44" width="120" title="Геловін" src="assets/img/logo.png">
                 </a>
             </div>
-            <div class="search">
-                <input name="search" type="text">
-                <div class="keyboardVoice">
-                    <a class="keyboard" href="#" aria-label="Транслітерація">
-                        <img src="//www.gstatic.com/inputtools/images/tia.png">
-                    </a>
-                    <a class="voice" href="#" aria-label="Пошук голосом">
-                        <img src="img/voice.jpg">
-                    </a>
-                    <a class="searchBtn" href="#" aria-label="Пошук">
-                        <img src="img/search.jpg">
-                    </a>
+            <form class="search-form" action="#" method="get">
+                <label><input name="search" type="text"></label>
+                <div class="search-buttons" >
+                    <button>
+                        <img src="assets/img/transliter.jpg" alt="transliteration">
+                    </button>
+                    <button>
+                        <img src="assets/img/voice.jpg" alt="search voice">
+                    </button>
+                    <button type="submit">
+                        <img src="assets/img/search.jpg" alt="search button">
+                    </button>
                 </div>
-            </div>
+            </form>
         </div>
         <div class="right">
             <a class="link1" href="#">
-                <img src="img/img1.jpg">
+                <img src="assets/img/img1.jpg" alt="google more">
             </a>
             <a class="link2" href="#">
-                <img src="img/img2.jpg">
+                <img src="assets/img/img2.jpg" alt="google message">
             </a>
             <a class="link3" href="#">
-                <img src="img/img3.jpg">
+                <img src="assets/img/img3.jpg" alt="google account">
             </a>
         </div>
 
@@ -45,7 +46,7 @@
 
     <nav>
         <ul>
-            <li>
+            <li class="active">
                 <a href="#">Усі</a>
             </li>
             <li>
@@ -67,7 +68,7 @@
                 <a href="#">Налаштування</a>
             </li>
             <li>
-                <a href="#">Інструменти</a>
+                <a href="#" class="tools">Інструменти</a>
             </li>
         </ul>
     </nav>
@@ -77,69 +78,149 @@
     <p>Приблизна кількість результатів: 29 400 000 (0,36 сек.)</p>
     <ul>
         <li>
-            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="titleLink">Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit</a>
+            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="title-link active-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</a>
             <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="link">https://www.w3schools.com/cssref/css_selectors.asp</a>
+            <a class="link triangle"><img src="assets/img/triangle.jpg" alt="triangle"></a>
+            <a class="link translate-link">Перекласти цю сторінку</a>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
-                vitae, justo.</p>
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         </li>
         <li>
-            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="titleLink">Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit.</a>
+            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="title-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
             <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="link">https://www.w3schools.com/cssref/css_selectors.asp</a>
+            <a class="link triangle"><img src="assets/img/triangle.jpg" alt="triangle"></a>
+            <a class="link translate-link">Перекласти цю сторінку</a>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
-                vitae, justo.</p>
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         </li>
         <li>
-            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="titleLink">Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit.</a>
+            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="title-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
             <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="link">https://www.w3schools.com/cssref/css_selectors.asp</a>
+            <a class="link triangle"><img src="assets/img/triangle.jpg" alt="triangle"></a>
+            <a class="link translate-link">Перекласти цю сторінку</a>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
-                vitae, justo.</p>
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         </li>
         <li>
-            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="titleLink">Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit.</a>
+            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="title-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
             <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="link">https://www.w3schools.com/cssref/css_selectors.asp</a>
+            <a class="link triangle"><img src="assets/img/triangle.jpg" alt="triangle"></a>
+            <a class="link translate-link">Перекласти цю сторінку</a>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
-                vitae, justo.</p>
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         </li>
         <li>
-            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="titleLink">Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit.</a>
+            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="title-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
             <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="link">https://www.w3schools.com/cssref/css_selectors.asp</a>
+            <a class="link triangle"><img src="assets/img/triangle.jpg" alt="triangle"></a>
+            <a class="link translate-link">Перекласти цю сторінку</a>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
-                vitae, justo.</p>
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         </li>
         <li>
-            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="titleLink">Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit.</a>
+            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="title-link">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
             <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="link">https://www.w3schools.com/cssref/css_selectors.asp</a>
+            <a class="link triangle"><img src="assets/img/triangle.jpg" alt="triangle"></a>
+            <a class="link translate-link">Перекласти цю сторінку</a>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
                 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis
-                vitae, justo.</p>
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
         </li>
-
-
     </ul>
-</main>
 
+    <section class="moreSearch">
+        <h2>Пошуки, пов'язані із запитом css selector</h2>
+        <div class="listMoreSearch">
+            <ul class="listLeft">
+                <li>
+                    <a href="#">css <span class="bold">selector attribute</span></a>
+                </li>
+                <li>
+                    <a href="#">css <span class="bold">selector attribute</span></a>
+                </li>
+                <li>
+                    <a href="#">css <span class="bold">selector attribute</span></a>
+                </li>
+                <li>
+                    <a href="#">css <span class="bold">selector attribute</span></a>
+                </li>
+            </ul>
+            <ul class="listRight">
+                <li>
+                    <a href="#">css <span class="bold">selector attribute</span></a>
+                </li>
+                <li>
+                    <a href="#">css <span class="bold">selector attribute</span></a>
+                </li>
+                <li>
+                    <a href="#">css <span class="bold">selector attribute</span></a>
+                </li>
+                <li>
+                    <a href="#">css <span class="bold">selector attribute</span></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="main-footer container">
+        <div class="main-footer-title">
+            <p class="blue">G</p>
+            <ul class="nav-page-title">
+                <li><a href="#"><span class="red">o</span></a></li>
+                <li><a href="#"><span class="yellow">o</span></a></li>
+                <li><a href="#"><span class="yellow">o</span></a></li>
+                <li><a href="#"><span class="yellow">o</span></a></li>
+                <li><a href="#"><span class="yellow">o</span></a></li>
+                <li><a href="#"><span class="yellow">o</span></a></li>
+                <li><a href="#"><span class="yellow">o</span></a></li>
+                <li><a href="#"><span class="yellow">o</span></a></li>
+                <li><a href="#"><span class="yellow">o</span></a></li>
+                <li ><a href="#"><span class="yellow">o</span></a></li>
+            </ul>
+            <p class="blue">g</p>
+            <p class="green">l</p>
+            <p class="red">e</p>
+            <a href="#" class="forward">&gt;</a>
+        </div>
+        <div class="main-footer-counter">
+            <ul class="nav-page-counter">
+                <li><a href="#" class="active-link">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#">10</a></li>
+            </ul>
+            <a href="#" class="forward-world">Уперед</a>
+        </div>
+    </div>
+</main>
+<footer>
+    <div>
+        <ul>
+            <li><span>Україна</span></li>
+            <li><span class="bold">Місцезнаходження недоступне</span></li>
+            <li><span> - З історії пошуку</span></li>
+            <li><a href="#"><span> - Докладніше</span></a></li>
+        </ul>
+    </div>
+    <div>
+        <ul class="conditions">
+            <li><a href="#"><span>Довідка</span></a></li>
+            <li><a href="#"><span>Надіслати відгук</span></a></li>
+            <li><a href="#"><span>Конфіденційність</span></a></li>
+            <li><a href="#"><span>Умови</span></a></li>
+        </ul>
+
+    </div>
+</footer>
 </body>
-</html>

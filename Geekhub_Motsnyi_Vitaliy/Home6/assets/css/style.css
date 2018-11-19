@@ -1,0 +1,438 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0;
+
+}
+
+.main-background {
+  background-color: #2ecc71;
+}
+
+.text1 {
+  max-width: 133px;
+  color: #f4f4f4;
+  font-family: "Segoe UI Black", sans-serif;
+  font-size: 39px;
+  font-style: italic;
+  line-height: 50px;
+  letter-spacing: 2px;
+  float: left;
+  margin-left: 130px;
+  width: 40%;
+  text-decoration: none;
+
+}
+
+.top-menu a {
+  color: #fefefe;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  float: left;
+  padding-left: 48px;
+  padding-top: 40px;
+}
+
+.my-menu {
+  list-style: none;
+  margin-left: 500px;
+  width: 60%;
+}
+
+.logo {
+  max-width: 111px;
+  margin-left: 130px;
+  padding-top: 147px;
+}
+
+.headline2 {
+  max-width: 524px;
+  color: #f4f4f4;
+  font-family: "Roboto Light", sans-serif;
+  font-size: 54px;
+  font-weight: 300;
+  letter-spacing: 2.56px;
+  line-height: 60px;
+  list-style: none;
+  float: left;
+  margin-left: 220px;
+}
+
+.headline22 {
+  color: #f4f4f4;
+  font-family: "Roboto - Bold", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 2.56px;
+  line-height: 60px;
+  list-style: none;
+  margin-left: 605px;
+}
+
+.headline1 {
+  padding-top: 50px;
+}
+
+.text2 {
+  max-width: 627px;
+  color: #f4f4f4;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.7px;
+  margin-left: 260px;
+}
+
+.logo22 {
+  list-style: none;
+}
+
+.appStore {
+  float: left;
+  margin-left: 165px;
+}
+
+.googlePay {
+  padding-bottom: 179px;
+}
+
+.apple2 {
+  position: absolute;
+  top: 290px;
+  left: -160px;
+}
+
+.banana {
+  position: absolute;
+  top: 120px;
+  left: 480px;
+  width: 234px;
+  height: 192px;
+}
+
+.strawberry {
+  position: absolute;
+  bottom: -390px;
+  left: 650px;
+}
+
+.iPhoneApple {
+  position: absolute;
+  top: 258px;
+  right: 170px;
+}
+
+.tomato {
+  position: absolute;
+  top: 350px;
+  right: 0;
+}
+
+.iPhoneMultiColors {
+  float: left;
+  height: 784px;
+  margin-left: 0;
+  margin-top: 92px;
+}
+
+.phone2nav {
+  margin-top: 200px;
+}
+
+.phone2nav1 {
+  list-style: none;
+  letter-spacing: 30px;
+  float: left;
+}
+
+.calendar {
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.schedule {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.favorites {
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.list {
+  padding-top: 50px;
+}
+
+.headline3 {
+  float: left;
+  padding-top: 150px;
+  padding-right: 100px;
+}
+
+.headline31 {
+  list-style: none;
+  max-width: 548px;
+
+}
+
+.headline311 {
+  font-family: Roboto, sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 60px;
+  float: left;
+  color: #5a5a5a;
+  letter-spacing: 1.44px;
+}
+
+.headline312 {
+  font-family: Roboto, sans-serif;
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 60px;
+  color: #2ecc71;
+  letter-spacing: 1.44px;
+  float: right;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.text31 {
+  margin-left: 872px;
+  margin-right: 100px;
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.54px;
+}
+
+.main-background2 {
+  background-size: cover;
+  background: url("back.png") center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 124vh;
+  z-index: -10;
+
+}
+
+.headline41 {
+  list-style: none;
+  padding-top: 116px;
+  max-width: 879px;
+  width: 100%;
+}
+
+.headline411 {
+  float: left;
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 31.98px;
+  letter-spacing: 1.44px;
+  padding-left: 40px;
+}
+
+.headline412 {
+  color: #2ecc71;
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 31.98px;
+  letter-spacing: 1.44px;
+  margin-left: 410px;
+}
+
+.headline4 {
+  max-width: 921px;
+  width: 100%;
+  margin: 0 auto
+}
+
+.text4 {
+  max-width: 921px;
+  width: 100%;
+  margin: 0 auto
+}
+.text41 {
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.54px;
+  max-width: 848px;
+  width: 100%;
+  text-align: center;
+  padding-top: 29px;
+}
+
+.block1 {
+  float: left;
+  width: 50%;
+  margin: 0 auto
+}
+
+.headline51 {
+  list-style: none;
+  padding-top: 282px;
+  margin-left: 200px;
+}
+
+.headline511 {
+  float: left;
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 1.44px;
+}
+
+.headline512 {
+  color: #2ecc71;
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 1.44px;
+}
+
+.text5 {
+max-width: 862px;
+}
+
+.text51 {
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.54px;
+  margin-left: 240px;
+}
+
+.block2 {
+  float: right;
+  width: 50%;
+  margin: 0 auto
+}
+
+.logo31 {
+  list-style: none;
+}
+
+.sendwich {
+  max-width: 525px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.apple3 {
+  max-width: 421px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 35px;
+  padding-top: 142px;
+}
+
+.salad {
+  max-width: 421px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 35px;
+}
+
+.logo3 {
+  max-width: 525px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-background3 {
+  background-size: cover;
+  background: url("back22.jpg") center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 320px;
+  z-index: -10;
+}
+
+.headline61 {
+  list-style: none;
+  padding-top: 70px;
+  max-width: 1279px;
+  width: 100%;
+}
+
+.headline611 {
+  float: left;
+  color: #ffffff;
+  font-family: "Roboto Light", sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 1.44px;
+  padding-left: 40px;
+}
+
+.headline612 {
+  color: #ffffff;
+  font-family: "Roboto - Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.44px;
+  margin-left: 410px;
+}
+
+.headline6 {
+  max-width: 921px;
+  width: 100%;
+  margin: 0 auto
+}
+
+.text6 {
+  max-width: 921px;
+  width: 100%;
+  margin: 0 auto
+}
+.text61 {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.54px;
+  max-width: 848px;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.bottom-menu-button {
+  max-width: 921px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bottom-menu-button1 {
+  margin-left: 300px;
+}

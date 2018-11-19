@@ -1,13 +1,8 @@
-@font-face {
-    font-family: Trebuchet;
-    src: url("assets/fonts/trebuc.ttf");
-}
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Trebuchet, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -18,6 +13,7 @@
 }
 
 header {
+    box-sizing: border-box;
     width: 601px;
     height: 43px;
     padding-left: 35px;
@@ -32,21 +28,21 @@ h2 {
     line-height: 20px;
 }
 
-.form-filds {
+.form-fields {
     padding: 40px 30px 20px 30px;
-}
-
-.form-footer {
-    padding: 0 30px 45px 30px;
-}
-
-.form-filds, .form-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.form-filds-left input, .form-filds-left select {
+.form-footer {
+    padding: 0 30px 45px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-fields-left input, .form-fields-left select {
     width: 260px;
     height: 33px;
     box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -57,10 +53,12 @@ h2 {
     font-weight: 400;
     line-height: 20px;
     padding: 5px;
+    box-sizing: border-box;
 }
 
-.form-filds-left input {
+.form-fields-left input {
     margin-bottom: 20px;
+
 }
 
 label {
@@ -83,6 +81,7 @@ textarea {
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
+    box-sizing: border-box;
 }
 
 .submit {
@@ -98,6 +97,7 @@ textarea {
     line-height: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-right: 35px;
 }
 
 .form-footer p {
@@ -105,6 +105,9 @@ textarea {
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .parag {
@@ -115,21 +118,33 @@ textarea {
     position: relative;
 }
 
-/*select {
-    -webkit-user-select: none;
-    -webkit-appearance: button;
+.select {
+    position: relative;
+    display: inline-block;
 }
 
-select::after {
-    content: '';
-    background: #202020;
+.select:after {
+    content: "▼";
+    padding: 6px 8px;
+    font-size: 10px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    z-index: 1;
+    text-align: center;
     width: 24px;
     height: 24px;
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    left: 0;
-}*/
+    pointer-events: none;
+    box-sizing: border-box;
+    background: #c0c0c0;
+}
+select {
+    border-radius: 0;
+    padding-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
 
 
 

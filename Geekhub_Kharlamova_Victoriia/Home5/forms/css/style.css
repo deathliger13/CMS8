@@ -1,231 +1,59 @@
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, form {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
-  position: relative;
-}
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, form{margin: 0; padding: 0; border: 0; font-size:100%; font-weight:100; font:inherit; vertical-align: baseline; position:relative;}
+body {margin: 0 auto; background-color:#ffffff; width:100% !important; height:100% !important; font-family: 'Open Sans', sans-serif; -webkit-text-size-adjust: 100%;}
 
-body {
-  margin: 0 auto;
-  background-color: #ffffff;
-  width: 100% !important;
-  height: 100% !important;
-  font-family: 'Open Sans', sans-serif;
-  -webkit-text-size-adjust: 100%;
+form{position: relative;}
+.container{max-width: 1170px; margin: 0 auto; padding: 0 15px; box-sizing: border-box;
 }
+table{width: 100%;}
+input, textarea, select{width: 100%; box-sizing: border-box; outline: none;}
 
-form {
-  position: relative;
-}
 
-#form1 {
-  max-width: 600px;
-  margin: 0 auto;
-}
+#form1{max-width: 600px; border:0; margin: 0 auto; border-top-right-radius: 10px; border-top-left-radius: 10px; overflow: hidden;}
+	.form1head td{padding:0 30px;background: #c97f36; 
+background: -moz-linear-gradient(top, #c97f36 0%,  #a35205 40%, #864405 80%, #854406 100%);
+background: -webkit-linear-gradient(top, #c97f36 0%,#a35205 40%,#864405 80%,#854406 100%);
+background: linear-gradient(to bottom, #c97f36 0%,#a35205 40%,#864405 80%,#854406 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c97f36', endColorstr='#854406',GradientType=0 );}
+		.form1head h2{color:#fff; font: 600 20px sans-serif; padding: 10px 0;}
+	.form1body{background: #f9f6e4;}
+		.form1body tr td{padding:0 20px; width: 49.9%;}
+	#form1 label{display:block; margin: 15px 0 0; font-size: 12px; padding:5px 0;}
+	#form1 input,
+	#form1 select,
+	#form1 textarea{width: 100%; margin: 8px 0 0px; height: 33px;padding:0 15px;}
+	#form1 textarea{height: 193px; padding: 10px 15px;}
+	#form1 button{
+		box-shadow: 0px 15px 20px -10px #fff inset,
+		 0px -10px 20px -10px #aaa inset;
+		color:#a24d00; background: #decfc1; margin: 10px auto; display: block; border: 5px solid #fff; border-radius: 50px; font-size: 24px; padding: 6px 50px;}
+	#form1 h5{color:#b8002f; font-size: 12.3px; padding: 15px 0; line-height: 20px; font-weight: bold;}
+.form1body{box-shadow: 0px 30px 40px -20px #ccc inset;}
+#form1 input, #form1 select, #form1 textarea{box-shadow: 0px 10px 20px -5px #ccc inset; border: 1px solid #aaa;}
 
-.form1head {
-  padding: 0 30px;
-  background: url(../img/form1_head_bg.png) center top;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-}
 
-.form1head h2 {
-  color: #fff;
-  font: 600 20px sans-serif;
-  padding: 10px 0;
-}
+#form2{max-width: 680px; margin: 0 auto;padding: 15px; background: #7797c1;}
+	#form2 table{padding: 0 30px; background: #709ad3;}
+	.form2head td{}
+		.form2head h2{color:#fff; font: 600 20px sans-serif; padding: 20px 10px;}
+	.form2body{background: #709ad3;}
+		.form2body td{padding:0 15px; }
+	#form2 label{display:block; margin: 5px 0 0; font-size: 14px; padding:5px 0;}
+	#form2 input,
+	#form2 select,
+	#form2 textarea{width: 100%; margin: 8px 0 0px; height: 33px;padding:0 15px;}
+	#form2 textarea{height: 178px; padding: 10px 15px;}
+	#form2 input[type=checkbox]{float:left; margin: 7px 10px 7px 0; height: auto; padding: 0 20px 0 0; width: auto;}
+	#form2 button{background: #c0de1a; display: block; margin-left: auto; font-weight: 600; padding: 6px 18px; border-radius: 4px; border: 1px solid #506700;}
 
-.form1body {
-  padding: 20px;
-  display: flex;
-  background: #f9f6e4;
-}
-
-.form1body > div {
-  padding: 0 10px;
-  width: 49.9%;
-}
-
-#form1 label {
-  display: block;
-  margin: 15px 0 0;
-  font-size: 12px;
-  padding: 5px 0;
-}
-
-#form1 input,
-#form1 select,
-#form1 textarea {
-  width: 100%;
-  margin: 8px 0 0;
-  height: 33px;
-  padding: 0 15px;
-}
-
-#form1 textarea {
-  height: 193px;
-  padding: 10px 15px;
-}
-
-#form1 button {
-  box-shadow: 0 15px 20px -10px #fff inset,
-  0 -10px 20px -10px #aaa inset;
-  color: #a24d00;
-  background: #decfc1;
-  margin: 10px auto;
-  display: block;
-  border: 5px solid #fff;
-  border-radius: 50px;
-  font-size: 24px;
-  padding: 6px 50px;
-}
-
-#form1 h5 {
-  color: #b8002f;
-  font-size: 12.3px;
-  padding: 15px 0;
-  line-height: 20px;
-  font-weight: bold;
-}
-
-.form1body {
-  box-shadow: 0 30px 40px -20px #ccc inset;
-}
-
-#form1 input, #form1 select, #form1 textarea {
-  box-shadow: 0 10px 20px -5px #ccc inset;
-  border: 1px solid #aaa;
-}
-
-#form2 {
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 15px;
-  background: #7797c1;
-}
-
-.form2head {
-  padding: 0 30px;
-  background: #709ad3;
-}
-
-.form2head h2 {
-  color: #fff;
-  font: 600 20px sans-serif;
-  padding: 20px 10px;
-}
-
-.form2body {
-  padding: 0 30px;
-  display: flex;
-  background: #709ad3;
-}
-
-.form2body > div {
-  padding: 10px 10px;
-  width: 48%;
-}
-
-.form2body > div:last-of-type {
-  width: 52%;
-}
-
-#form2 label {
-  display: block;
-  margin: 5px 0 0;
-  font-size: 14px;
-  padding: 5px 0;
-}
-
-#form2 input,
-#form2 select,
-#form2 textarea {
-  width: 100%;
-  margin: 8px 0 0;
-  height: 33px;
-  padding: 0 15px;
-}
-
-#form2 textarea {
-  height: 178px;
-  padding: 10px 15px;
-}
-
-#form2 input[type=checkbox] {
-  float: left;
-  margin: 7px 10px 7px 0;
-  height: auto;
-  padding: 0 20px 0 0;
-  width: auto;
-}
-
-#form2 button {
-  background: #c0de1a;
-  display: block;
-  margin-left: auto;
-  font-weight: 600;
-  padding: 6px 18px;
-  border-radius: 4px;
-  border: 1px solid #506700;
-}
-
-#form3 {
-  max-width: 340px;
-  margin: 0 auto;
-}
-
-.form3head {
-  text-align: center;
-  padding: 0 0;
-  background: url(../img/form3_head_bg.png) center bottom;
-  border-radius: 10px 10px 0 0;
-}
-
-.form3head h2 {
-  color: #fff;
-  font: italic 600 22px sans-serif;
-  padding: 10px 0;
-}
-
-.form3body {
-  padding: 0 10px;
-  background: url(../img/form3_main_bg.png) center top;
-}
-
-.form3body > div {
-  padding: 10px 10px 35px;
-}
-
-#form3 label {
-  display: block;
-  margin: 5px 0 0;
-  font-size: 14px;
-  padding: 5px 0;
-}
-
-#form3 input {
-  background: url(../img/mail_bottom.png) bottom left no-repeat, #b5b5b5;
-  width: 100%;
-  margin: 8px 0 0;
-  height: 33px;
-  padding: 0 50px;
-  border: 1px solid #999;
-}
-
-#form3 button {
-  color: #c0c0c0;
-  position: absolute;
-  right: 15px;
-  top: 32px;
-  font-size: 11px;
-  background: #0f0f0f;
-  display: block;
-  margin-left: auto;
-  font-weight: 600;
-  padding: 6px 18px;
-  border-radius: 4px;
-  border: 1px solid #c0c0c0;
-}
+#form3{max-width: 340px; margin: 0 auto; }
+	.form3head td{text-align:center; padding:0 0px;border-radius: 10px 10px 0 0;background: #d971fd; background: -moz-linear-gradient(top, #d971fd 0%, #8f1ecd 35%,  #8425e3 70%, #4c1e85 100%);background: -webkit-linear-gradient(top, #d971fd 0%, #8f1ecd 35%,  #8425e3 70%, #4c1e85 100%);background: linear-gradient(to bottom, #d971fd 0%, #8f1ecd 35%,  #8425e3 70%, #4c1e85 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d971fd', endColorstr='#4c1e85',GradientType=0 );}
+		.form3head h2{color:#fff; font: italic 600 22px sans-serif; padding: 10px 0px;}
+	.form3body{padding:0 10px; background: #ffffff;
+background: -moz-linear-gradient(top, #ffffff 0%, #9e9e9e 30%, #737373 67%, #606060 100%);
+background: -webkit-linear-gradient(top, #ffffff 0%, #9e9e9e 30%, #737373 67%, #606060 100%);
+background: linear-gradient(to bottom,  #ffffff 0%, #9e9e9e 30%, #737373 67%, #606060 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#606060',GradientType=0 );}
+	.form3body td { padding: 10px 10px 35px;}
+	#form3 label{display:block; margin: 5px 0 0; font-size: 14px; padding:5px 15px;}
+	#form3 input{background: url(../img/mail_bottom.png) bottom left no-repeat, #b5b5b5; width: 100%; margin: 8px 0 0px; height: 33px;padding:0 50px; border: 1px solid #999;}
+	#form3 button{color:#c0c0c0; position: absolute; right: 28px; top: 78px; font-size: 11px;background: #0f0f0f; display: block; margin-left: auto; font-weight: 600; padding: 6px 18px; border-radius: 4px; border: 1px solid #c0c0c0;}

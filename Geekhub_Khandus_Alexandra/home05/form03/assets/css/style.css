@@ -1,10 +1,5 @@
-@font-face {
-    font-family: Myriad;
-    src: url("assets/fonts/Myriad.ttf");
-}
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Myriad, sans-serif;
@@ -82,7 +77,6 @@ label {
 }
 
 .submit {
-    width: 71px;
     height: 26px;
     background-image: linear-gradient(to top, #000000 0%, #333333 100%);
     color: #c0c0c0;
@@ -91,4 +85,7 @@ label {
     font-weight: 400;
     line-height: 20px;
     text-transform: uppercase;
+    padding-left: 16px;
+    padding-right: 11px;
+    border-radius: 4px;
 }

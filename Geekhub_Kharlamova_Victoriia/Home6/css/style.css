@@ -1,0 +1,356 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: 100;
+  font: inherit;
+  vertical-align: baseline;
+  position: relative;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 100% !important;
+  height: 100% !important;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.container::after {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+
+h2 {
+  font: 300 48px 'Roboto';
+}
+
+h5 {
+  font: 300 19.3px/32px 'Roboto';
+}
+
+button {
+  font: bold 18px 'Roboto';
+  padding: 10px 40px;
+  margin: 28px 0;
+  display: inline-block;
+  background: #fff;
+  border: 0;
+  border-radius: 50px;
+}
+
+span {
+  color: #2ecc71;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.tcenter {
+  text-align: center;
+  position: relative;
+}
+
+.div {
+  width: 49.9%;
+}
+
+header button {
+  color: #2ecc71;
+}
+
+header {
+  background: #2ecc71;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header h2 {
+  font: italic 900 40px 'Segoe UI';
+  padding: 20px 0;
+}
+
+.menu {
+  color: #fff;
+  margin: 0 20px;
+  display: inline-block;
+  list-style-type: none;
+  font: 18px 'Roboto';
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 26px;
+}
+
+#main {
+  color: #fff;
+  background: #2ecc71;
+}
+
+#main h1 {
+  font: 100 64px 'Roboto';
+  padding: 50px 0 15px;
+}
+
+#main h5 {
+  max-width: 630px;
+}
+
+.stores {
+  padding: 55px 25px 0px 0;
+}
+
+.fly {
+  position: absolute;
+}
+
+.bg_phone {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+#calorie {
+  padding: 100px 0 0;
+}
+
+#calorie .fright h2 {
+  padding: 270px 0 15px;
+}
+
+#calorie .tcenter h2 {
+  padding: 140px 0 20px;
+}
+
+#calorie .tcenter h5 {
+  margin: 0 auto;
+  max-width: 870px;
+}
+
+#calorie .fleft img {
+  margin-left: -75px;
+}
+
+#time {
+  background: #fff;
+  position: relative;
+  margin: -170px 0 0;
+  z-index: 5;
+  min-height: 700px;
+}
+
+#time .fleft h2 {
+  padding: 265px 0 20px;
+}
+
+.items {
+  padding: 130px 0 0;
+  max-width: 520px;
+  margin: 0 0 0 auto;
+}
+
+.item {
+  color: #b4b4b4;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 15px auto;
+  padding: 30px 0 20px;
+}
+
+.item::after {
+  display: block;
+  clear: both;
+  content: ' ';
+}
+
+.item > div {
+  float: left;
+}
+
+.i_img {
+  width: 30%;
+  text-align: center;
+}
+
+.i_about {
+  width: 44%;
+  padding: 0 10px;
+}
+
+.i_about h5 {
+  font: 600 14px 'Roboto';
+}
+
+.i_about h6 {
+  font: 13px 'Roboto';
+  padding: 3px 0;
+}
+
+.i_time {
+  text-align: right;
+  width: 19%;
+}
+
+.i_time h1 {
+  font: 600 24px 'Roboto';
+}
+
+.i_time h2 {
+  font: 600 14px 'Roboto';
+}
+
+.i_big {
+  margin: 30px 0px;
+  max-width: 520px;
+  padding: 20px 0 10px;
+}
+
+.i_big h4 {
+  font: 20px 'Roboto';
+  padding: 10px 0 5px;
+}
+
+.i_big .i_about h5 {
+  padding: 5px 0;
+}
+
+.i_big .i_time h1 {
+  font: 600 32px 'Roboto';
+  padding: 15px 0 0;
+}
+
+.i_big .i_time h2 {
+  font: 600 18px 'Roboto';
+}
+
+#get {
+  color: #fff;
+  background: #2ecc71;
+}
+
+#get h2 {
+  padding: 105px 0 20px;
+}
+
+#get h5 {
+  margin: 0 auto 25px;
+  max-width: 850px;
+}
+
+#get button {
+  padding: 10px 90px;
+}
+
+#get .tcenter {
+  padding: 0 0 70px;
+}
+
+.bg_phones {
+  padding: 100px 0 0;
+  z-index: 2;
+}
+
+.fly {
+  position: absolute;
+}
+
+.banana {
+  top: 5px;
+  left: 30%
+}
+
+.apple_bg_l {
+  top: 160px;
+  left: -43%;
+}
+
+.apple_bg_r {
+  bottom: 155px;
+  right: -4%;
+}
+
+.tomato_r {
+  top: 150px;
+  right: -29%;
+}
+
+.strawberry {
+  bottom: -6%;
+  left: 43%;
+}
+
+.float_pepper {
+  top: 390px;
+  left: -15%;
+}
+
+.apple_bg_l2 {
+  top: 660px;
+  left: 0%;
+  max-width: 220px;
+}
+
+.strawberry2 {
+  top: 440px;
+  right: -11%;
+}
+
+.banana2 {
+  top: 550px;
+  right: 0%;
+}
+
+.tomato_l {
+  top: 70px;
+  left: -39%;
+}
+
+.float_pepper2 {
+  top: 80px;
+  left: -9%;
+}
+
+.strawberry3 {
+  bottom: -6%;
+  left: 5%;
+}
+
+.banana3 {
+  right: -10%;
+  top: 40px;
+}
+
+.apple_bg {
+  bottom: -12%;
+  right: -39%;
+}
+
+.banana, .tomato_r, .strawberry, .apple_bg_l2, .banana2, .float_pepper2, .banana3, .strawberry3 {
+  filter: blur(5px);
+}
+
+.apple_bg_l, .apple_bg_r, .float_pepper, .strawberry2, .tomato_l, .apple_bg {
+  filter: blur(8px);
+}

@@ -1,126 +1,133 @@
-* {
-    box-sizing: border-box;
-}
 
 .container {
-    width: 676px;
-    height: 366px;
-    border: 15px solid rgba(141, 141, 141, 0.25);
-    background-color: #709ad3;
-    margin: 0 auto;
-    padding: 15px 30px 35px 35px;
+  width: 676px;
+  height: 366px;
+  border: 15px solid rgba(141, 141, 141, 0.25);
+  background-color: #709ad3;
+  margin: 0 auto;
+  padding: 15px 30px 35px 35px;
+  box-sizing: border-box;
 }
 
 h2 {
-    height: 20px;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 20px;
+  height: 20px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
-.form-filds, .form-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.form-fields, .form-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 label {
-    color: #000000;
-    font-family: Arial;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .form-footer label {
-    display: inline-block;
+  display: inline-block;
 }
 
 input {
-    width: 253px;
-    height: 32px;
-    background-color: #ffffff;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    color: #8e8e8e;
-    font-family: Arial;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
+  width: 253px;
+  height: 32px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  color: #8e8e8e;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.form-fields-left input:last-child {
+  margin-bottom: 0;
 }
 
 .input:focus, .input:active {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
 
 input.checkbox {
-    width: auto;
-    height: auto;
-    margin: 0;
-    display: none;
+  width: auto;
+  height: auto;
+  margin: 0;
+  display: none;
 }
 
 .notify {
-    position: relative;
-    margin-top: 15px;
+  position: relative;
+  margin-top: 15px;
 }
 
 .notify label {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 .notify label:before {
-    content: "";
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-right: 0;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #ffffff;
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
 }
 
 input.checkbox:checked + label:before {
-    content: "\2713";
-    font-size: 12px;
-    color: #545454;
-    text-align: center;
-    line-height: 15px;
+  content: "\2713";
+  font-size: 12px;
+  color: #545454;
+  text-align: center;
+  line-height: 15px;
 }
 
 input.checkbox:checked {
-    background: url("assets/img/Layer_44.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background: url("assets/img/Layer_44.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 textarea {
-    width: 300px;
-    height: 174px;
-    background-color: #ffffff;
-    font-family: Arial;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    padding: 5px;
-    margin-top: 5px;
+  width: 300px;
+  height: 174px;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 5px;
+  margin-top: 5px;
+  resize: none;
+  border: 0;
+  box-sizing: border-box;
 }
 
 .submit {
-    width: 92px;
-    height: 33px;
-    border: 1px solid #506700;
-    background-image: linear-gradient(to top, #abcb1c 0%, #e1fb17 100%);
-    color: #202020;
-    font-family: Arial;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
+  width: 92px;
+  height: 33px;
+  border: 1px solid #506700;
+  background-image: linear-gradient(to top, #abcb1c 0%, #e1fb17 100%);
+  color: #202020;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 

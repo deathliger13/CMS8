@@ -1,0 +1,199 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.navigation {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-left: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header {
+  background: url(../img/fruits-headline.png) no-repeat #2ecc71 center;
+}
+
+.headline {
+  background: url(../img/iPhone-headline.png) no-repeat right bottom;
+  background-size: 30%;
+}
+
+.diet-backround {
+  background: url(../img/fruits.png) no-repeat #f9f9f9 center;
+}
+
+footer {
+  padding-bottom: 100px;
+  background: url(../img/fruits-footer.png) no-repeat #2ecc71 center;
+}
+
+.navigation li {
+  margin-top: 0;
+  list-style: none;
+}
+
+header a, footer a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.fit-app, .about, .features, .reviews, .blog, .support, .get-app {
+  margin-left: 50px;
+  padding-top: 20px;
+  float: left;
+}
+
+.fit-app {
+  margin-right: 300px;
+  margin-left: 0;
+  padding: 0;
+  font-family: "Segoe UI Black", sans-serif;
+  font-size: 39px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.get-app a {
+  padding: 10px 30px;
+  color: #2ecc71;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.icon-logo {
+  margin-top: 200px;
+  margin-left: -30px;
+}
+
+h1 {
+  width: 50%;
+  color: #f4f4f4;
+  font-family: Roboto, sans-serif;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.headline p {
+  margin-bottom: 50px;
+  width: 50%;
+  color: #f4f4f4;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.headline {
+  padding-bottom: 50px;
+}
+
+.app-store {
+  margin-right: 30px;
+}
+
+.counter-app h2 {
+  margin-top: 200px;
+  float: left;
+  width: 50%;
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.counter-app p {
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.iPhone-counter {
+  float: left;
+  width: 50%;
+}
+
+.diet h2 {
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  text-align: center;
+}
+
+.diet p {
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 70%;
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+}
+
+.phones {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+
+}
+
+.meal-time {
+  float: right;
+  width: 50%;
+}
+
+.meal h2 {
+  margin-top: 150px;
+  float: left;
+  width: 50%;
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+}
+
+.meal p {
+  color: #5a5a5a;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+footer h2 {
+  color: #f4f4f4;
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 50px;
+  color: #f4f4f4;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 50px;
+  width: 10%;
+  color: #2ecc71;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+}
